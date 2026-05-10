@@ -1,0 +1,2263 @@
+2026-04-24 19:41:46,493: Using device: cuda:0
+2026-04-24 19:41:46,724: Initialized ConvMambaGRU text decoding model
+2026-04-24 19:41:46,724: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.1, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.1, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.25, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.25, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.25, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.25, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 19:41:46,726: Model has 54,197,280 parameters
+2026-04-24 19:41:46,726: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 19:41:50,070: Successfully initialized datasets
+2026-04-24 19:42:58,094: Using device: cuda:0
+2026-04-24 19:42:58,328: Initialized ConvMambaGRU text decoding model
+2026-04-24 19:42:58,328: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.1, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.1, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.25, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.25, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.25, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.25, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 19:42:58,332: Model has 54,197,280 parameters
+2026-04-24 19:42:58,332: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 19:43:01,573: Successfully initialized datasets
+2026-04-24 19:43:02,726: Loaded model from checkpoint: trained_models/convmambagru_text_v1/checkpoint/best_checkpoint
+2026-04-24 19:43:05,121: Train batch 0: loss: 0.05 grad norm: 13.24 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.000
+2026-04-24 19:43:05,121: Running test after training batch: 0
+2026-04-24 19:43:21,984: Val batch 0: WER (avg): 0.3655 CER (avg): 0.1745 CTC Loss (avg): 55.6778 time: 16.863
+2026-04-24 19:43:51,458: Train batch 10: loss: 0.03 grad norm: 6.37 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.777
+2026-04-24 19:44:15,786: Train batch 20: loss: 0.02 grad norm: 6.40 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.907
+2026-04-24 19:44:45,021: Train batch 30: loss: 0.01 grad norm: 43.96 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.572
+2026-04-24 19:45:33,633: Train batch 40: loss: 0.06 grad norm: 11.24 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.904
+2026-04-24 19:46:08,041: Train batch 50: loss: 0.07 grad norm: 127.22 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.491
+2026-04-24 19:46:31,101: Train batch 60: loss: 0.01 grad norm: 10.64 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.941
+2026-04-24 19:46:57,961: Train batch 70: loss: 0.02 grad norm: 7.99 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.907
+2026-04-24 19:47:36,552: Train batch 80: loss: 0.04 grad norm: 213.63 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.420
+2026-04-24 19:48:09,708: Train batch 90: loss: 0.02 grad norm: 5.83 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.258
+2026-04-24 19:48:47,283: Train batch 100: loss: 0.02 grad norm: 5.25 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 14.311
+2026-04-24 19:48:47,283: Running test after training batch: 100
+2026-04-24 19:49:14,861: Val batch 100: WER (avg): 0.3661 CER (avg): 0.1750 CTC Loss (avg): 55.6970 time: 27.577
+2026-04-24 19:49:40,649: Train batch 110: loss: 0.07 grad norm: 18.82 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.487
+2026-04-24 19:50:07,350: Train batch 120: loss: 0.01 grad norm: 3.24 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.076
+2026-04-24 19:50:27,873: Train batch 130: loss: 0.02 grad norm: 13.72 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.949
+2026-04-24 19:51:03,755: Train batch 140: loss: 0.02 grad norm: 7.49 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.721
+2026-04-24 19:51:37,576: Train batch 150: loss: 0.02 grad norm: 5.36 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 4.379
+2026-04-24 19:52:05,770: Train batch 160: loss: 0.07 grad norm: 9.21 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.933
+2026-04-24 19:52:36,355: Train batch 170: loss: 0.09 grad norm: 21.96 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.852
+2026-04-24 19:53:00,456: Train batch 180: loss: 0.01 grad norm: 1.69 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.903
+2026-04-24 19:53:35,795: Train batch 190: loss: 0.03 grad norm: 11.60 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.464
+2026-04-24 19:54:08,681: Train batch 200: loss: 0.01 grad norm: 4.36 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.956
+2026-04-24 19:54:08,681: Running test after training batch: 200
+2026-04-24 19:54:23,013: Val batch 200: WER (avg): 0.3665 CER (avg): 0.1755 CTC Loss (avg): 56.0260 time: 14.332
+2026-04-24 19:54:50,955: Train batch 210: loss: 0.01 grad norm: 3.62 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 6.542
+2026-04-24 19:55:26,924: Train batch 220: loss: 0.02 grad norm: 4.47 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 6.120
+2026-04-24 19:55:49,194: Train batch 230: loss: 0.05 grad norm: 72.80 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.859
+2026-04-24 19:56:17,054: Train batch 240: loss: 0.05 grad norm: 49.81 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 4.428
+2026-04-24 19:57:01,847: Train batch 250: loss: 0.08 grad norm: 14.80 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.948
+2026-04-24 19:57:23,619: Train batch 260: loss: 0.01 grad norm: 3.26 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.939
+2026-04-24 19:57:49,430: Train batch 270: loss: 0.01 grad norm: 1.28 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.963
+2026-04-24 19:58:18,518: Train batch 280: loss: 0.02 grad norm: 6.06 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.952
+2026-04-24 19:58:36,585: Batch 285: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 19:58:36,585: Debug batch 285
+2026-04-24 19:58:36,585: day_indicies: [37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 19:58:36,595: n_time_steps min/max: 200 / 1989
+2026-04-24 19:58:36,596: adjusted_lens min/max: 47 / 494
+2026-04-24 19:58:36,596: char_seq_lens min/max: 14 / 54
+2026-04-24 19:58:36,596: Any adjusted_lens <= 0? False
+2026-04-24 19:58:36,596: Any char_seq_lens <= 0? False
+2026-04-24 19:58:36,597: Any adjusted_lens < char_seq_lens? True
+2026-04-24 19:58:36,600: features finite? True
+2026-04-24 19:58:36,606: features abs max: 9.937500
+2026-04-24 19:58:36,606: labels min/max: 0 / 30
+2026-04-24 19:58:51,987: Train batch 290: loss: 0.06 grad norm: 80.95 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 6.934
+2026-04-24 19:59:16,577: Train batch 300: loss: 0.02 grad norm: 7.90 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.857
+2026-04-24 19:59:16,577: Running test after training batch: 300
+2026-04-24 19:59:35,650: Val batch 300: WER (avg): 0.3684 CER (avg): 0.1773 CTC Loss (avg): 56.6160 time: 19.073
+2026-04-24 20:00:11,578: Train batch 310: loss: 0.02 grad norm: 4.29 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.929
+2026-04-24 20:00:32,351: Train batch 320: loss: 0.07 grad norm: 12.96 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 4.229
+2026-04-24 20:00:55,827: Train batch 330: loss: 0.03 grad norm: 9.51 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.651
+2026-04-24 20:01:34,338: Train batch 340: loss: 0.05 grad norm: 9.08 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.555
+2026-04-24 20:02:02,212: Train batch 350: loss: 0.01 grad norm: 4.66 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.471
+2026-04-24 20:02:33,321: Train batch 360: loss: 0.02 grad norm: 5.49 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 7.823
+2026-04-24 20:03:02,185: Train batch 370: loss: 0.06 grad norm: 22.12 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.549
+2026-04-24 20:03:25,164: Train batch 380: loss: 0.01 grad norm: 2.01 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.965
+2026-04-24 20:04:03,522: Train batch 390: loss: 0.02 grad norm: 13.01 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.901
+2026-04-24 20:04:29,637: Train batch 400: loss: 0.02 grad norm: 6.49 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.288
+2026-04-24 20:04:29,638: Running test after training batch: 400
+2026-04-24 20:04:44,404: Val batch 400: WER (avg): 0.3660 CER (avg): 0.1752 CTC Loss (avg): 56.4481 time: 14.766
+2026-04-24 20:05:15,164: Train batch 410: loss: 0.03 grad norm: 9.92 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.851
+2026-04-24 20:05:42,976: Train batch 420: loss: 0.07 grad norm: 11.58 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.601
+2026-04-24 20:06:19,701: Train batch 430: loss: 0.01 grad norm: 2.62 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.083
+2026-04-24 20:07:03,522: Batch 440: filtering 2 invalid samples (keeping 62/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:07:03,522: Debug batch 440
+2026-04-24 20:07:03,522: day_indicies: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29]
+2026-04-24 20:07:03,523: n_time_steps min/max: 200 / 1915
+2026-04-24 20:07:03,523: adjusted_lens min/max: 47 / 476
+2026-04-24 20:07:03,524: char_seq_lens min/max: 18 / 62
+2026-04-24 20:07:03,524: Any adjusted_lens <= 0? False
+2026-04-24 20:07:03,524: Any char_seq_lens <= 0? False
+2026-04-24 20:07:03,524: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:07:03,527: features finite? True
+2026-04-24 20:07:03,534: features abs max: 10.250000
+2026-04-24 20:07:03,534: labels min/max: 0 / 30
+2026-04-24 20:07:07,290: Train batch 440: loss: 0.01 grad norm: 1.95 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.820
+2026-04-24 20:07:39,918: Train batch 450: loss: 0.00 grad norm: 0.26 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.548
+2026-04-24 20:08:07,198: Train batch 460: loss: 0.04 grad norm: 32.15 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.082
+2026-04-24 20:08:30,489: Train batch 470: loss: 0.01 grad norm: 1.03 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.955
+2026-04-24 20:08:53,871: Train batch 480: loss: 0.02 grad norm: 5.39 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.104
+2026-04-24 20:09:44,376: Batch 490: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:09:44,377: Debug batch 490
+2026-04-24 20:09:44,377: day_indicies: [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 20:09:44,377: n_time_steps min/max: 200 / 1828
+2026-04-24 20:09:44,377: adjusted_lens min/max: 47 / 454
+2026-04-24 20:09:44,378: char_seq_lens min/max: 19 / 55
+2026-04-24 20:09:44,378: Any adjusted_lens <= 0? False
+2026-04-24 20:09:44,378: Any char_seq_lens <= 0? False
+2026-04-24 20:09:44,378: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:09:44,381: features finite? True
+2026-04-24 20:09:44,388: features abs max: 10.000000
+2026-04-24 20:09:44,388: labels min/max: 0 / 30
+2026-04-24 20:09:46,685: Train batch 490: loss: 0.01 grad norm: 0.78 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.351
+2026-04-24 20:09:49,652: Batch 492: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:09:49,652: Debug batch 492
+2026-04-24 20:09:49,652: day_indicies: [39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 20:09:49,653: n_time_steps min/max: 200 / 2158
+2026-04-24 20:09:49,653: adjusted_lens min/max: 47 / 537
+2026-04-24 20:09:49,653: char_seq_lens min/max: 13 / 61
+2026-04-24 20:09:49,653: Any adjusted_lens <= 0? False
+2026-04-24 20:09:49,653: Any char_seq_lens <= 0? False
+2026-04-24 20:09:49,654: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:09:49,661: features finite? True
+2026-04-24 20:09:49,668: features abs max: 8.937500
+2026-04-24 20:09:49,668: labels min/max: 0 / 31
+2026-04-24 20:10:16,583: Train batch 500: loss: 0.03 grad norm: 8.83 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.343
+2026-04-24 20:10:16,583: Running test after training batch: 500
+2026-04-24 20:10:32,580: Val batch 500: WER (avg): 0.3676 CER (avg): 0.1759 CTC Loss (avg): 56.3349 time: 15.997
+2026-04-24 20:11:01,347: Train batch 510: loss: 0.10 grad norm: 37.02 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.288
+2026-04-24 20:14:22,463: Using device: cuda:0
+2026-04-24 20:14:22,671: Initialized ConvMambaGRU text decoding model
+2026-04-24 20:14:22,671: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.05, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.05, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.05, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.15, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.15, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.15, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.15, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 20:14:22,672: Model has 54,197,280 parameters
+2026-04-24 20:14:22,672: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 20:14:23,554: Successfully initialized datasets
+2026-04-24 20:14:24,574: Loaded model from checkpoint: trained_models/convmambagru_text_v1/checkpoint/best_checkpoint
+2026-04-24 20:14:26,275: Train batch 0: loss: 0.02 grad norm: 8.06 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.407
+2026-04-24 20:14:26,275: Running test after training batch: 0
+2026-04-24 20:14:40,705: Val batch 0: WER (avg): 0.3657 CER (avg): 0.1746 CTC Loss (avg): 55.6657 time: 14.429
+2026-04-24 20:15:05,017: Train batch 10: loss: 0.01 grad norm: 0.88 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.110
+2026-04-24 20:15:28,190: Train batch 20: loss: 0.03 grad norm: 34.39 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.006
+2026-04-24 20:17:16,176: Using device: cuda:0
+2026-04-24 20:17:16,396: Initialized ConvMambaGRU text decoding model
+2026-04-24 20:17:16,396: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.05, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.05, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.05, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.15, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.15, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.15, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.15, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 20:17:16,398: Model has 54,197,280 parameters
+2026-04-24 20:17:16,398: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 20:17:17,276: Successfully initialized datasets
+2026-04-24 20:17:18,036: Loaded model from checkpoint: trained_models/convmambagru_text_v1/checkpoint/best_checkpoint
+2026-04-24 20:17:19,716: Train batch 0: loss: 0.02 grad norm: 8.06 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 1.406
+2026-04-24 20:17:19,716: Running test after training batch: 0
+2026-04-24 20:17:34,194: Val batch 0: WER (avg): 0.3654 CER (avg): 0.1744 CTC Loss (avg): 55.6587 time: 14.478
+2026-04-24 20:17:34,194: New best val CER 0.1746 --> 0.1744
+2026-04-24 20:17:34,194: Checkpointing model
+2026-04-24 20:17:34,785: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 20:18:11,048: Train batch 10: loss: 0.01 grad norm: 1.11 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.587
+2026-04-24 20:18:32,665: Train batch 20: loss: 0.04 grad norm: 20.44 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.908
+2026-04-24 20:19:00,868: Train batch 30: loss: 0.00 grad norm: 0.22 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.303
+2026-04-24 20:19:43,770: Train batch 40: loss: 0.03 grad norm: 10.86 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.075
+2026-04-24 20:20:17,584: Train batch 50: loss: 0.01 grad norm: 0.92 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.273
+2026-04-24 20:20:40,022: Train batch 60: loss: 0.00 grad norm: 1.47 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.950
+2026-04-24 20:21:07,609: Train batch 70: loss: 0.07 grad norm: 13.76 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.906
+2026-04-24 20:21:55,146: Train batch 80: loss: 0.00 grad norm: 1.29 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.120
+2026-04-24 20:22:42,758: Train batch 90: loss: 0.02 grad norm: 9.60 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.339
+2026-04-24 20:23:23,654: Train batch 100: loss: 0.01 grad norm: 4.80 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 14.931
+2026-04-24 20:23:23,654: Running test after training batch: 100
+2026-04-24 20:23:48,676: Val batch 100: WER (avg): 0.3625 CER (avg): 0.1736 CTC Loss (avg): 55.8632 time: 25.022
+2026-04-24 20:23:48,676: New best val WER 0.3654 --> 0.3625
+2026-04-24 20:23:48,677: Checkpointing model
+2026-04-24 20:23:49,869: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 20:24:19,755: Train batch 110: loss: 0.02 grad norm: 10.96 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 3.202
+2026-04-24 20:24:59,756: Train batch 120: loss: 0.01 grad norm: 3.23 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.531
+2026-04-24 20:25:20,538: Train batch 130: loss: 0.01 grad norm: 4.47 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.967
+2026-04-24 20:25:57,898: Train batch 140: loss: 0.01 grad norm: 2.34 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.727
+2026-04-24 20:26:35,070: Train batch 150: loss: 0.00 grad norm: 0.93 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 4.760
+2026-04-24 20:27:03,792: Train batch 160: loss: 0.02 grad norm: 3.88 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.952
+2026-04-24 20:27:34,422: Train batch 170: loss: 0.01 grad norm: 1.39 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.858
+2026-04-24 20:27:59,689: Train batch 180: loss: 0.01 grad norm: 38.99 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.902
+2026-04-24 20:28:37,332: Train batch 190: loss: 0.00 grad norm: 0.78 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 2.785
+2026-04-24 20:29:11,534: Train batch 200: loss: 0.00 grad norm: 0.48 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 0.979
+2026-04-24 20:29:11,534: Running test after training batch: 200
+2026-04-24 20:29:24,801: Val batch 200: WER (avg): 0.3643 CER (avg): 0.1749 CTC Loss (avg): 56.2129 time: 13.267
+2026-04-24 20:29:52,836: Train batch 210: loss: 0.00 grad norm: 0.88 lr(s): ['0.00001000', '0.00000250', '0.00001000'] time: 5.276
+2026-04-24 20:31:17,996: Using device: cuda:0
+2026-04-24 20:31:18,210: Initialized ConvMambaGRU text decoding model
+2026-04-24 20:31:18,210: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.05, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.05, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.05, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.15, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.15, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.15, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.15, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 20:31:18,211: Model has 54,197,280 parameters
+2026-04-24 20:31:18,212: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 20:31:19,085: Successfully initialized datasets
+2026-04-24 20:32:05,844: Using device: cuda:0
+2026-04-24 20:32:06,065: Initialized ConvMambaGRU text decoding model
+2026-04-24 20:32:06,066: MambaTextDecoder(
+  (day_layer_activation): Softsign()
+  (day_weights): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 512x512]
+      (1): Parameter containing: [torch.float32 of size 512x512]
+      (2): Parameter containing: [torch.float32 of size 512x512]
+      (3): Parameter containing: [torch.float32 of size 512x512]
+      (4): Parameter containing: [torch.float32 of size 512x512]
+      (5): Parameter containing: [torch.float32 of size 512x512]
+      (6): Parameter containing: [torch.float32 of size 512x512]
+      (7): Parameter containing: [torch.float32 of size 512x512]
+      (8): Parameter containing: [torch.float32 of size 512x512]
+      (9): Parameter containing: [torch.float32 of size 512x512]
+      (10): Parameter containing: [torch.float32 of size 512x512]
+      (11): Parameter containing: [torch.float32 of size 512x512]
+      (12): Parameter containing: [torch.float32 of size 512x512]
+      (13): Parameter containing: [torch.float32 of size 512x512]
+      (14): Parameter containing: [torch.float32 of size 512x512]
+      (15): Parameter containing: [torch.float32 of size 512x512]
+      (16): Parameter containing: [torch.float32 of size 512x512]
+      (17): Parameter containing: [torch.float32 of size 512x512]
+      (18): Parameter containing: [torch.float32 of size 512x512]
+      (19): Parameter containing: [torch.float32 of size 512x512]
+      (20): Parameter containing: [torch.float32 of size 512x512]
+      (21): Parameter containing: [torch.float32 of size 512x512]
+      (22): Parameter containing: [torch.float32 of size 512x512]
+      (23): Parameter containing: [torch.float32 of size 512x512]
+      (24): Parameter containing: [torch.float32 of size 512x512]
+      (25): Parameter containing: [torch.float32 of size 512x512]
+      (26): Parameter containing: [torch.float32 of size 512x512]
+      (27): Parameter containing: [torch.float32 of size 512x512]
+      (28): Parameter containing: [torch.float32 of size 512x512]
+      (29): Parameter containing: [torch.float32 of size 512x512]
+      (30): Parameter containing: [torch.float32 of size 512x512]
+      (31): Parameter containing: [torch.float32 of size 512x512]
+      (32): Parameter containing: [torch.float32 of size 512x512]
+      (33): Parameter containing: [torch.float32 of size 512x512]
+      (34): Parameter containing: [torch.float32 of size 512x512]
+      (35): Parameter containing: [torch.float32 of size 512x512]
+      (36): Parameter containing: [torch.float32 of size 512x512]
+      (37): Parameter containing: [torch.float32 of size 512x512]
+      (38): Parameter containing: [torch.float32 of size 512x512]
+      (39): Parameter containing: [torch.float32 of size 512x512]
+      (40): Parameter containing: [torch.float32 of size 512x512]
+      (41): Parameter containing: [torch.float32 of size 512x512]
+      (42): Parameter containing: [torch.float32 of size 512x512]
+      (43): Parameter containing: [torch.float32 of size 512x512]
+      (44): Parameter containing: [torch.float32 of size 512x512]
+  )
+  (day_biases): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 1x512]
+      (1): Parameter containing: [torch.float32 of size 1x512]
+      (2): Parameter containing: [torch.float32 of size 1x512]
+      (3): Parameter containing: [torch.float32 of size 1x512]
+      (4): Parameter containing: [torch.float32 of size 1x512]
+      (5): Parameter containing: [torch.float32 of size 1x512]
+      (6): Parameter containing: [torch.float32 of size 1x512]
+      (7): Parameter containing: [torch.float32 of size 1x512]
+      (8): Parameter containing: [torch.float32 of size 1x512]
+      (9): Parameter containing: [torch.float32 of size 1x512]
+      (10): Parameter containing: [torch.float32 of size 1x512]
+      (11): Parameter containing: [torch.float32 of size 1x512]
+      (12): Parameter containing: [torch.float32 of size 1x512]
+      (13): Parameter containing: [torch.float32 of size 1x512]
+      (14): Parameter containing: [torch.float32 of size 1x512]
+      (15): Parameter containing: [torch.float32 of size 1x512]
+      (16): Parameter containing: [torch.float32 of size 1x512]
+      (17): Parameter containing: [torch.float32 of size 1x512]
+      (18): Parameter containing: [torch.float32 of size 1x512]
+      (19): Parameter containing: [torch.float32 of size 1x512]
+      (20): Parameter containing: [torch.float32 of size 1x512]
+      (21): Parameter containing: [torch.float32 of size 1x512]
+      (22): Parameter containing: [torch.float32 of size 1x512]
+      (23): Parameter containing: [torch.float32 of size 1x512]
+      (24): Parameter containing: [torch.float32 of size 1x512]
+      (25): Parameter containing: [torch.float32 of size 1x512]
+      (26): Parameter containing: [torch.float32 of size 1x512]
+      (27): Parameter containing: [torch.float32 of size 1x512]
+      (28): Parameter containing: [torch.float32 of size 1x512]
+      (29): Parameter containing: [torch.float32 of size 1x512]
+      (30): Parameter containing: [torch.float32 of size 1x512]
+      (31): Parameter containing: [torch.float32 of size 1x512]
+      (32): Parameter containing: [torch.float32 of size 1x512]
+      (33): Parameter containing: [torch.float32 of size 1x512]
+      (34): Parameter containing: [torch.float32 of size 1x512]
+      (35): Parameter containing: [torch.float32 of size 1x512]
+      (36): Parameter containing: [torch.float32 of size 1x512]
+      (37): Parameter containing: [torch.float32 of size 1x512]
+      (38): Parameter containing: [torch.float32 of size 1x512]
+      (39): Parameter containing: [torch.float32 of size 1x512]
+      (40): Parameter containing: [torch.float32 of size 1x512]
+      (41): Parameter containing: [torch.float32 of size 1x512]
+      (42): Parameter containing: [torch.float32 of size 1x512]
+      (43): Parameter containing: [torch.float32 of size 1x512]
+      (44): Parameter containing: [torch.float32 of size 1x512]
+  )
+  (day_layer_dropout): Dropout(p=0.05, inplace=False)
+  (conv_frontend): ConvFrontend(
+    (net): Sequential(
+      (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (1): GELU(approximate='none')
+      (2): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.05, inplace=False)
+      (4): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,))
+      (5): GELU(approximate='none')
+      (6): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (7): Dropout(p=0.05, inplace=False)
+    )
+  )
+  (input_projection): Linear(in_features=7168, out_features=768, bias=True)
+  (mamba_blocks): ModuleList(
+    (0-4): 5 x MambaResidualBlock(
+      (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mamba): Mamba(
+        (in_proj): Linear(in_features=768, out_features=3072, bias=False)
+        (conv1d): Conv1d(1536, 1536, kernel_size=(4,), stride=(1,), padding=(3,), groups=1536)
+        (act): SiLU()
+        (x_proj): Linear(in_features=1536, out_features=80, bias=False)
+        (dt_proj): Linear(in_features=48, out_features=1536, bias=True)
+        (out_proj): Linear(in_features=1536, out_features=768, bias=False)
+      )
+      (dropout1): Dropout(p=0.15, inplace=False)
+      (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (mlp): Sequential(
+        (0): Linear(in_features=768, out_features=1536, bias=True)
+        (1): GELU(approximate='none')
+        (2): Dropout(p=0.15, inplace=False)
+        (3): Linear(in_features=1536, out_features=768, bias=True)
+      )
+      (dropout2): Dropout(p=0.15, inplace=False)
+    )
+  )
+  (gru): GRU(768, 768, batch_first=True)
+  (final_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  (final_dropout): Dropout(p=0.15, inplace=False)
+  (out): Linear(in_features=768, out_features=32, bias=True)
+)
+2026-04-24 20:32:06,067: Model has 54,197,280 parameters
+2026-04-24 20:32:06,067: Model has 11,819,520 day-specific parameters | 21.81% of total parameters
+2026-04-24 20:32:06,936: Successfully initialized datasets
+2026-04-24 20:32:07,479: Loaded model weights only from checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 20:32:09,396: Train batch 0: loss: 0.01 grad norm: 48.88 lr(s): ['0.00000010', '0.00000003', '0.00000010'] time: 1.608
+2026-04-24 20:32:09,397: Running test after training batch: 0
+2026-04-24 20:32:23,598: Val batch 0: WER (avg): 0.3624 CER (avg): 0.1737 CTC Loss (avg): 55.8853 time: 14.201
+2026-04-24 20:32:23,598: New best val WER 0.3625 --> 0.3624
+2026-04-24 20:32:23,598: Checkpointing model
+2026-04-24 20:32:24,215: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 20:32:45,608: Train batch 10: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000110', '0.00000033', '0.00000110'] time: 1.599
+2026-04-24 20:33:04,622: Train batch 20: loss: 0.00 grad norm: 0.58 lr(s): ['0.00000210', '0.00000063', '0.00000210'] time: 1.049
+2026-04-24 20:33:33,345: Train batch 30: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000310', '0.00000093', '0.00000310'] time: 2.215
+2026-04-24 20:34:22,004: Train batch 40: loss: 0.02 grad norm: 8.15 lr(s): ['0.00000410', '0.00000123', '0.00000410'] time: 3.065
+2026-04-24 20:34:57,386: Train batch 50: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000500', '0.00000150', '0.00000500'] time: 2.135
+2026-04-24 20:35:23,267: Train batch 60: loss: 0.00 grad norm: 0.07 lr(s): ['0.00000500', '0.00000150', '0.00000500'] time: 1.040
+2026-04-24 20:35:53,002: Train batch 70: loss: 0.00 grad norm: 0.73 lr(s): ['0.00000500', '0.00000150', '0.00000500'] time: 0.990
+2026-04-24 20:36:29,678: Train batch 80: loss: 0.00 grad norm: 1.48 lr(s): ['0.00000500', '0.00000150', '0.00000500'] time: 2.175
+2026-04-24 20:37:02,840: Train batch 90: loss: 0.00 grad norm: 0.46 lr(s): ['0.00000500', '0.00000150', '0.00000500'] time: 2.069
+2026-04-24 20:37:33,761: Train batch 100: loss: 0.00 grad norm: 0.93 lr(s): ['0.00000499', '0.00000150', '0.00000499'] time: 8.479
+2026-04-24 20:37:33,762: Running test after training batch: 100
+2026-04-24 20:37:49,558: Val batch 100: WER (avg): 0.3629 CER (avg): 0.1737 CTC Loss (avg): 55.7838 time: 15.796
+2026-04-24 20:38:19,188: Train batch 110: loss: 0.02 grad norm: 10.92 lr(s): ['0.00000499', '0.00000150', '0.00000499'] time: 2.733
+2026-04-24 20:38:47,574: Train batch 120: loss: 0.01 grad norm: 1.87 lr(s): ['0.00000499', '0.00000150', '0.00000499'] time: 2.347
+2026-04-24 20:39:09,685: Train batch 130: loss: 0.01 grad norm: 3.00 lr(s): ['0.00000498', '0.00000149', '0.00000498'] time: 1.056
+2026-04-24 20:39:49,509: Train batch 140: loss: 0.01 grad norm: 2.78 lr(s): ['0.00000498', '0.00000149', '0.00000498'] time: 0.806
+2026-04-24 20:40:28,083: Train batch 150: loss: 0.00 grad norm: 0.53 lr(s): ['0.00000497', '0.00000149', '0.00000497'] time: 4.292
+2026-04-24 20:40:56,058: Train batch 160: loss: 0.01 grad norm: 2.56 lr(s): ['0.00000496', '0.00000149', '0.00000496'] time: -0.139
+2026-04-24 20:41:27,620: Train batch 170: loss: 0.01 grad norm: 3.83 lr(s): ['0.00000496', '0.00000149', '0.00000496'] time: -0.223
+2026-04-24 20:41:56,630: Train batch 180: loss: 0.02 grad norm: 4.27 lr(s): ['0.00000495', '0.00000149', '0.00000495'] time: 0.989
+2026-04-24 20:42:42,384: Train batch 190: loss: 0.00 grad norm: 0.66 lr(s): ['0.00000494', '0.00000148', '0.00000494'] time: 3.087
+2026-04-24 20:43:20,283: Train batch 200: loss: 0.00 grad norm: 0.42 lr(s): ['0.00000493', '0.00000148', '0.00000493'] time: 1.064
+2026-04-24 20:43:20,283: Running test after training batch: 200
+2026-04-24 20:43:34,332: Val batch 200: WER (avg): 0.3644 CER (avg): 0.1742 CTC Loss (avg): 55.9771 time: 14.049
+2026-04-24 20:44:04,644: Train batch 210: loss: 0.00 grad norm: 2.50 lr(s): ['0.00000492', '0.00000148', '0.00000492'] time: 7.638
+2026-04-24 20:44:43,396: Train batch 220: loss: 0.01 grad norm: 1.33 lr(s): ['0.00000492', '0.00000147', '0.00000492'] time: 6.609
+2026-04-24 20:45:12,069: Train batch 230: loss: 0.00 grad norm: 0.31 lr(s): ['0.00000491', '0.00000147', '0.00000491'] time: 0.959
+2026-04-24 20:45:49,985: Train batch 240: loss: 0.01 grad norm: 4.28 lr(s): ['0.00000489', '0.00000147', '0.00000489'] time: 13.461
+2026-04-24 20:46:33,669: Train batch 250: loss: 0.01 grad norm: 13.85 lr(s): ['0.00000488', '0.00000146', '0.00000488'] time: 2.333
+2026-04-24 20:46:55,378: Train batch 260: loss: 0.00 grad norm: 0.31 lr(s): ['0.00000487', '0.00000146', '0.00000487'] time: 1.048
+2026-04-24 20:47:23,476: Train batch 270: loss: 0.00 grad norm: 0.25 lr(s): ['0.00000486', '0.00000146', '0.00000486'] time: 1.050
+2026-04-24 20:47:48,392: Train batch 280: loss: 0.01 grad norm: 95.31 lr(s): ['0.00000485', '0.00000145', '0.00000485'] time: 1.057
+2026-04-24 20:48:12,262: Batch 285: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:48:12,263: Debug batch 285
+2026-04-24 20:48:12,263: day_indicies: [37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 20:48:12,272: n_time_steps min/max: 200 / 1989
+2026-04-24 20:48:12,272: adjusted_lens min/max: 47 / 494
+2026-04-24 20:48:12,272: char_seq_lens min/max: 14 / 54
+2026-04-24 20:48:12,272: Any adjusted_lens <= 0? False
+2026-04-24 20:48:12,273: Any char_seq_lens <= 0? False
+2026-04-24 20:48:12,273: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:48:12,276: features finite? True
+2026-04-24 20:48:12,281: features abs max: 9.937500
+2026-04-24 20:48:12,281: labels min/max: 0 / 30
+2026-04-24 20:48:28,096: Train batch 290: loss: 0.00 grad norm: 0.43 lr(s): ['0.00000483', '0.00000145', '0.00000483'] time: 6.988
+2026-04-24 20:48:50,913: Train batch 300: loss: 0.01 grad norm: 2.83 lr(s): ['0.00000482', '0.00000145', '0.00000482'] time: 2.930
+2026-04-24 20:48:50,913: Running test after training batch: 300
+2026-04-24 20:49:06,613: Val batch 300: WER (avg): 0.3635 CER (avg): 0.1739 CTC Loss (avg): 55.8143 time: 15.700
+2026-04-24 20:49:43,597: Train batch 310: loss: 0.01 grad norm: 2.77 lr(s): ['0.00000480', '0.00000144', '0.00000480'] time: 2.939
+2026-04-24 20:50:06,519: Train batch 320: loss: 0.02 grad norm: 13.17 lr(s): ['0.00000479', '0.00000144', '0.00000479'] time: 4.729
+2026-04-24 20:50:27,310: Train batch 330: loss: 0.01 grad norm: 0.74 lr(s): ['0.00000477', '0.00000143', '0.00000477'] time: 2.419
+2026-04-24 20:51:10,703: Train batch 340: loss: 0.03 grad norm: 8.04 lr(s): ['0.00000476', '0.00000143', '0.00000476'] time: 3.909
+2026-04-24 20:51:41,539: Train batch 350: loss: 0.00 grad norm: 0.66 lr(s): ['0.00000474', '0.00000142', '0.00000474'] time: 2.224
+2026-04-24 20:52:16,342: Train batch 360: loss: 0.00 grad norm: 0.80 lr(s): ['0.00000472', '0.00000142', '0.00000472'] time: 10.655
+2026-04-24 20:52:42,521: Train batch 370: loss: 0.02 grad norm: 77.53 lr(s): ['0.00000471', '0.00000141', '0.00000471'] time: 2.464
+2026-04-24 20:53:04,611: Train batch 380: loss: 0.01 grad norm: 1.31 lr(s): ['0.00000469', '0.00000141', '0.00000469'] time: 1.045
+2026-04-24 20:53:37,499: Train batch 390: loss: 0.01 grad norm: 1.16 lr(s): ['0.00000467', '0.00000140', '0.00000467'] time: 0.972
+2026-04-24 20:54:02,030: Train batch 400: loss: 0.01 grad norm: 0.82 lr(s): ['0.00000465', '0.00000139', '0.00000465'] time: 3.174
+2026-04-24 20:54:02,030: Running test after training batch: 400
+2026-04-24 20:54:16,994: Val batch 400: WER (avg): 0.3635 CER (avg): 0.1736 CTC Loss (avg): 55.9400 time: 14.964
+2026-04-24 20:54:47,499: Train batch 410: loss: 0.08 grad norm: 26.04 lr(s): ['0.00000463', '0.00000139', '0.00000463'] time: 3.768
+2026-04-24 20:55:15,749: Train batch 420: loss: 0.03 grad norm: 5.60 lr(s): ['0.00000461', '0.00000138', '0.00000461'] time: 2.477
+2026-04-24 20:55:55,765: Train batch 430: loss: 0.06 grad norm: 564.90 lr(s): ['0.00000459', '0.00000138', '0.00000459'] time: 2.220
+2026-04-24 20:56:35,270: Batch 440: filtering 2 invalid samples (keeping 62/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:56:35,270: Debug batch 440
+2026-04-24 20:56:35,270: day_indicies: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29]
+2026-04-24 20:56:35,271: n_time_steps min/max: 200 / 1915
+2026-04-24 20:56:35,271: adjusted_lens min/max: 47 / 476
+2026-04-24 20:56:35,271: char_seq_lens min/max: 18 / 62
+2026-04-24 20:56:35,271: Any adjusted_lens <= 0? False
+2026-04-24 20:56:35,271: Any char_seq_lens <= 0? False
+2026-04-24 20:56:35,271: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:56:35,276: features finite? True
+2026-04-24 20:56:35,279: features abs max: 10.250000
+2026-04-24 20:56:35,280: labels min/max: 0 / 30
+2026-04-24 20:56:38,946: Train batch 440: loss: 0.00 grad norm: 1.39 lr(s): ['0.00000457', '0.00000137', '0.00000457'] time: 3.730
+2026-04-24 20:57:05,863: Train batch 450: loss: 0.00 grad norm: 0.12 lr(s): ['0.00000455', '0.00000136', '0.00000455'] time: 1.054
+2026-04-24 20:57:32,628: Train batch 460: loss: 0.00 grad norm: 0.94 lr(s): ['0.00000452', '0.00000136', '0.00000452'] time: 2.160
+2026-04-24 20:57:55,378: Train batch 470: loss: 0.00 grad norm: 0.26 lr(s): ['0.00000450', '0.00000135', '0.00000450'] time: 1.025
+2026-04-24 20:58:28,310: Train batch 480: loss: 0.01 grad norm: 48.98 lr(s): ['0.00000448', '0.00000134', '0.00000448'] time: 3.363
+2026-04-24 20:59:04,359: Batch 490: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:59:04,360: Debug batch 490
+2026-04-24 20:59:04,360: day_indicies: [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 20:59:04,362: n_time_steps min/max: 200 / 1828
+2026-04-24 20:59:04,362: adjusted_lens min/max: 47 / 454
+2026-04-24 20:59:04,362: char_seq_lens min/max: 19 / 55
+2026-04-24 20:59:04,363: Any adjusted_lens <= 0? False
+2026-04-24 20:59:04,363: Any char_seq_lens <= 0? False
+2026-04-24 20:59:04,363: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:59:04,367: features finite? True
+2026-04-24 20:59:04,373: features abs max: 10.000000
+2026-04-24 20:59:04,373: labels min/max: 0 / 30
+2026-04-24 20:59:05,685: Train batch 490: loss: 0.00 grad norm: 0.45 lr(s): ['0.00000446', '0.00000134', '0.00000446'] time: 1.376
+2026-04-24 20:59:08,547: Batch 492: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 20:59:08,547: Debug batch 492
+2026-04-24 20:59:08,551: day_indicies: [39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 20:59:08,551: n_time_steps min/max: 200 / 2158
+2026-04-24 20:59:08,551: adjusted_lens min/max: 47 / 537
+2026-04-24 20:59:08,552: char_seq_lens min/max: 13 / 61
+2026-04-24 20:59:08,552: Any adjusted_lens <= 0? False
+2026-04-24 20:59:08,552: Any char_seq_lens <= 0? False
+2026-04-24 20:59:08,552: Any adjusted_lens < char_seq_lens? True
+2026-04-24 20:59:08,555: features finite? True
+2026-04-24 20:59:08,563: features abs max: 8.937500
+2026-04-24 20:59:08,563: labels min/max: 0 / 31
+2026-04-24 20:59:36,089: Train batch 500: loss: 0.02 grad norm: 177.63 lr(s): ['0.00000443', '0.00000133', '0.00000443'] time: 2.699
+2026-04-24 20:59:36,089: Running test after training batch: 500
+2026-04-24 20:59:58,087: Val batch 500: WER (avg): 0.3642 CER (avg): 0.1733 CTC Loss (avg): 55.8855 time: 21.998
+2026-04-24 21:00:18,073: Train batch 510: loss: 0.01 grad norm: 4.69 lr(s): ['0.00000441', '0.00000132', '0.00000441'] time: 0.959
+2026-04-24 21:00:58,821: Train batch 520: loss: 0.00 grad norm: 1.07 lr(s): ['0.00000438', '0.00000131', '0.00000438'] time: 1.009
+2026-04-24 21:01:20,581: Train batch 530: loss: 0.00 grad norm: 0.86 lr(s): ['0.00000436', '0.00000131', '0.00000436'] time: 2.498
+2026-04-24 21:01:55,225: Train batch 540: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000433', '0.00000130', '0.00000433'] time: 7.284
+2026-04-24 21:02:19,616: Train batch 550: loss: 0.00 grad norm: 0.30 lr(s): ['0.00000431', '0.00000129', '0.00000431'] time: 2.488
+2026-04-24 21:02:44,566: Train batch 560: loss: 0.08 grad norm: 22.02 lr(s): ['0.00000428', '0.00000128', '0.00000428'] time: 1.832
+2026-04-24 21:03:13,321: Train batch 570: loss: 0.00 grad norm: 1.32 lr(s): ['0.00000425', '0.00000128', '0.00000425'] time: 5.086
+2026-04-24 21:03:36,471: Train batch 580: loss: 0.01 grad norm: 4.59 lr(s): ['0.00000423', '0.00000127', '0.00000423'] time: 3.655
+2026-04-24 21:03:57,964: Train batch 590: loss: 0.01 grad norm: 2.08 lr(s): ['0.00000420', '0.00000126', '0.00000420'] time: 1.039
+2026-04-24 21:04:27,588: Train batch 600: loss: 0.00 grad norm: 26.05 lr(s): ['0.00000417', '0.00000125', '0.00000417'] time: 0.876
+2026-04-24 21:04:27,588: Running test after training batch: 600
+2026-04-24 21:04:42,589: Val batch 600: WER (avg): 0.3635 CER (avg): 0.1736 CTC Loss (avg): 56.0237 time: 15.001
+2026-04-24 21:05:09,713: Train batch 610: loss: 0.00 grad norm: 0.48 lr(s): ['0.00000414', '0.00000124', '0.00000414'] time: 5.110
+2026-04-24 21:05:48,178: Train batch 620: loss: 0.01 grad norm: 2.67 lr(s): ['0.00000411', '0.00000123', '0.00000411'] time: 1.350
+2026-04-24 21:06:09,901: Train batch 630: loss: 0.00 grad norm: 11.16 lr(s): ['0.00000408', '0.00000123', '0.00000408'] time: 2.540
+2026-04-24 21:06:42,157: Train batch 640: loss: 0.01 grad norm: 8.62 lr(s): ['0.00000405', '0.00000122', '0.00000405'] time: 4.300
+2026-04-24 21:07:12,217: Train batch 650: loss: 0.00 grad norm: 0.38 lr(s): ['0.00000403', '0.00000121', '0.00000403'] time: 3.340
+2026-04-24 21:07:52,624: Train batch 660: loss: 0.00 grad norm: 0.69 lr(s): ['0.00000400', '0.00000120', '0.00000400'] time: 2.612
+2026-04-24 21:08:37,278: Train batch 670: loss: 0.02 grad norm: 3.17 lr(s): ['0.00000396', '0.00000119', '0.00000396'] time: 3.278
+2026-04-24 21:08:41,633: Batch 673: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:08:41,634: Debug batch 673
+2026-04-24 21:08:41,634: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44]
+2026-04-24 21:08:41,634: n_time_steps min/max: 200 / 2059
+2026-04-24 21:08:41,635: adjusted_lens min/max: 47 / 512
+2026-04-24 21:08:41,635: char_seq_lens min/max: 18 / 59
+2026-04-24 21:08:41,635: Any adjusted_lens <= 0? False
+2026-04-24 21:08:41,636: Any char_seq_lens <= 0? False
+2026-04-24 21:08:41,636: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:08:41,639: features finite? True
+2026-04-24 21:08:41,645: features abs max: 10.062500
+2026-04-24 21:08:41,645: labels min/max: 0 / 30
+2026-04-24 21:09:01,673: Train batch 680: loss: 0.02 grad norm: 9.97 lr(s): ['0.00000393', '0.00000118', '0.00000393'] time: 0.959
+2026-04-24 21:09:20,692: Train batch 690: loss: 0.01 grad norm: 80.42 lr(s): ['0.00000390', '0.00000117', '0.00000390'] time: 1.051
+2026-04-24 21:09:39,815: Batch 698: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:09:39,816: Debug batch 698
+2026-04-24 21:09:39,816: day_indicies: [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+2026-04-24 21:09:39,816: n_time_steps min/max: 200 / 2091
+2026-04-24 21:09:39,817: adjusted_lens min/max: 47 / 520
+2026-04-24 21:09:39,817: char_seq_lens min/max: 17 / 67
+2026-04-24 21:09:39,817: Any adjusted_lens <= 0? False
+2026-04-24 21:09:39,817: Any char_seq_lens <= 0? False
+2026-04-24 21:09:39,817: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:09:39,820: features finite? True
+2026-04-24 21:09:39,826: features abs max: 10.187500
+2026-04-24 21:09:39,827: labels min/max: 0 / 30
+2026-04-24 21:09:58,014: Train batch 700: loss: 0.00 grad norm: 3.04 lr(s): ['0.00000387', '0.00000116', '0.00000387'] time: 5.074
+2026-04-24 21:09:58,014: Running test after training batch: 700
+2026-04-24 21:10:11,932: Val batch 700: WER (avg): 0.3624 CER (avg): 0.1730 CTC Loss (avg): 56.0954 time: 13.917
+2026-04-24 21:10:11,932: New best val CER 0.1737 --> 0.1730
+2026-04-24 21:10:11,932: Checkpointing model
+2026-04-24 21:10:12,801: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 21:10:52,199: Train batch 710: loss: 0.00 grad norm: 0.95 lr(s): ['0.00000384', '0.00000115', '0.00000384'] time: 5.117
+2026-04-24 21:11:24,882: Train batch 720: loss: 0.01 grad norm: 2.74 lr(s): ['0.00000381', '0.00000114', '0.00000381'] time: 3.370
+2026-04-24 21:12:11,972: Train batch 730: loss: 0.00 grad norm: 8.58 lr(s): ['0.00000378', '0.00000113', '0.00000378'] time: 7.507
+2026-04-24 21:12:52,971: Train batch 740: loss: 0.00 grad norm: 0.15 lr(s): ['0.00000374', '0.00000112', '0.00000374'] time: 4.970
+2026-04-24 21:13:16,988: Train batch 750: loss: 0.01 grad norm: 4.40 lr(s): ['0.00000371', '0.00000111', '0.00000371'] time: 1.040
+2026-04-24 21:13:35,228: Batch 760: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:13:35,229: Debug batch 760
+2026-04-24 21:13:35,229: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34]
+2026-04-24 21:13:35,229: n_time_steps min/max: 200 / 2080
+2026-04-24 21:13:35,229: adjusted_lens min/max: 47 / 517
+2026-04-24 21:13:35,230: char_seq_lens min/max: 12 / 55
+2026-04-24 21:13:35,230: Any adjusted_lens <= 0? False
+2026-04-24 21:13:35,230: Any char_seq_lens <= 0? False
+2026-04-24 21:13:35,231: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:13:35,236: features finite? True
+2026-04-24 21:13:35,242: features abs max: 9.937500
+2026-04-24 21:13:35,242: labels min/max: 0 / 30
+2026-04-24 21:13:39,279: Train batch 760: loss: 0.00 grad norm: 1.97 lr(s): ['0.00000368', '0.00000110', '0.00000368'] time: 4.108
+2026-04-24 21:14:04,844: Train batch 770: loss: 0.00 grad norm: 0.92 lr(s): ['0.00000365', '0.00000109', '0.00000365'] time: 2.257
+2026-04-24 21:14:27,388: Train batch 780: loss: 0.00 grad norm: 0.53 lr(s): ['0.00000361', '0.00000108', '0.00000361'] time: 2.274
+2026-04-24 21:15:01,019: Train batch 790: loss: 0.00 grad norm: 0.54 lr(s): ['0.00000358', '0.00000107', '0.00000358'] time: 0.871
+2026-04-24 21:15:38,498: Train batch 800: loss: 0.00 grad norm: 0.11 lr(s): ['0.00000354', '0.00000106', '0.00000354'] time: 3.327
+2026-04-24 21:15:38,498: Running test after training batch: 800
+2026-04-24 21:15:53,201: Val batch 800: WER (avg): 0.3629 CER (avg): 0.1737 CTC Loss (avg): 56.2712 time: 14.703
+2026-04-24 21:16:20,956: Train batch 810: loss: 0.00 grad norm: 0.86 lr(s): ['0.00000351', '0.00000105', '0.00000351'] time: 4.024
+2026-04-24 21:16:49,921: Train batch 820: loss: 0.01 grad norm: 4.99 lr(s): ['0.00000348', '0.00000104', '0.00000348'] time: 0.987
+2026-04-24 21:17:17,099: Batch 828: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:17:17,100: Debug batch 828
+2026-04-24 21:17:17,100: day_indicies: [40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 21:17:17,101: n_time_steps min/max: 200 / 1794
+2026-04-24 21:17:17,101: adjusted_lens min/max: 47 / 446
+2026-04-24 21:17:17,101: char_seq_lens min/max: 16 / 57
+2026-04-24 21:17:17,101: Any adjusted_lens <= 0? False
+2026-04-24 21:17:17,102: Any char_seq_lens <= 0? False
+2026-04-24 21:17:17,102: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:17:17,105: features finite? True
+2026-04-24 21:17:17,110: features abs max: 10.125000
+2026-04-24 21:17:17,110: labels min/max: 0 / 31
+2026-04-24 21:17:26,087: Train batch 830: loss: 0.01 grad norm: 1.17 lr(s): ['0.00000344', '0.00000103', '0.00000344'] time: 3.725
+2026-04-24 21:18:12,842: Train batch 840: loss: 0.01 grad norm: 3.27 lr(s): ['0.00000341', '0.00000102', '0.00000341'] time: 6.468
+2026-04-24 21:18:42,340: Batch 849: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:18:42,340: Debug batch 849
+2026-04-24 21:18:42,341: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27]
+2026-04-24 21:18:42,341: n_time_steps min/max: 200 / 2158
+2026-04-24 21:18:42,341: adjusted_lens min/max: 47 / 537
+2026-04-24 21:18:42,342: char_seq_lens min/max: 11 / 61
+2026-04-24 21:18:42,342: Any adjusted_lens <= 0? False
+2026-04-24 21:18:42,342: Any char_seq_lens <= 0? False
+2026-04-24 21:18:42,342: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:18:42,347: features finite? True
+2026-04-24 21:18:42,353: features abs max: 10.000000
+2026-04-24 21:18:42,353: labels min/max: 0 / 30
+2026-04-24 21:18:49,912: Train batch 850: loss: 0.07 grad norm: 19.30 lr(s): ['0.00000337', '0.00000101', '0.00000337'] time: 3.586
+2026-04-24 21:19:17,391: Train batch 860: loss: 0.00 grad norm: 1.28 lr(s): ['0.00000334', '0.00000100', '0.00000334'] time: 1.064
+2026-04-24 21:19:46,870: Train batch 870: loss: 0.02 grad norm: 4.97 lr(s): ['0.00000330', '0.00000099', '0.00000330'] time: 2.525
+2026-04-24 21:20:19,640: Train batch 880: loss: 0.03 grad norm: 117.21 lr(s): ['0.00000327', '0.00000098', '0.00000327'] time: 1.717
+2026-04-24 21:20:47,927: Batch 889: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:20:47,928: Debug batch 889
+2026-04-24 21:20:47,928: day_indicies: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34]
+2026-04-24 21:20:47,928: n_time_steps min/max: 200 / 1794
+2026-04-24 21:20:47,928: adjusted_lens min/max: 47 / 446
+2026-04-24 21:20:47,929: char_seq_lens min/max: 6 / 55
+2026-04-24 21:20:47,929: Any adjusted_lens <= 0? False
+2026-04-24 21:20:47,929: Any char_seq_lens <= 0? False
+2026-04-24 21:20:47,929: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:20:47,934: features finite? True
+2026-04-24 21:20:47,939: features abs max: 8.937500
+2026-04-24 21:20:47,939: labels min/max: 0 / 30
+2026-04-24 21:20:51,658: Train batch 890: loss: 0.01 grad norm: 2.06 lr(s): ['0.00000323', '0.00000097', '0.00000323'] time: 1.080
+2026-04-24 21:21:18,155: Batch 900: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:21:18,155: Debug batch 900
+2026-04-24 21:21:18,155: day_indicies: [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29]
+2026-04-24 21:21:18,155: n_time_steps min/max: 200 / 2156
+2026-04-24 21:21:18,156: adjusted_lens min/max: 47 / 536
+2026-04-24 21:21:18,156: char_seq_lens min/max: 18 / 61
+2026-04-24 21:21:18,156: Any adjusted_lens <= 0? False
+2026-04-24 21:21:18,156: Any char_seq_lens <= 0? False
+2026-04-24 21:21:18,157: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:21:18,160: features finite? True
+2026-04-24 21:21:18,166: features abs max: 10.062500
+2026-04-24 21:21:18,166: labels min/max: 0 / 30
+2026-04-24 21:21:22,565: Train batch 900: loss: 0.00 grad norm: 0.40 lr(s): ['0.00000320', '0.00000096', '0.00000320'] time: 4.470
+2026-04-24 21:21:22,565: Running test after training batch: 900
+2026-04-24 21:21:36,304: Val batch 900: WER (avg): 0.3627 CER (avg): 0.1730 CTC Loss (avg): 56.5078 time: 13.738
+2026-04-24 21:21:58,210: Train batch 910: loss: 0.00 grad norm: 0.26 lr(s): ['0.00000316', '0.00000095', '0.00000316'] time: 0.850
+2026-04-24 21:22:07,365: Batch 916: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:22:07,366: Debug batch 916
+2026-04-24 21:22:07,366: day_indicies: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36]
+2026-04-24 21:22:07,366: n_time_steps min/max: 200 / 1601
+2026-04-24 21:22:07,366: adjusted_lens min/max: 47 / 397
+2026-04-24 21:22:07,366: char_seq_lens min/max: 14 / 61
+2026-04-24 21:22:07,366: Any adjusted_lens <= 0? False
+2026-04-24 21:22:07,367: Any char_seq_lens <= 0? False
+2026-04-24 21:22:07,367: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:22:07,371: features finite? True
+2026-04-24 21:22:07,374: features abs max: 10.187500
+2026-04-24 21:22:07,374: labels min/max: 0 / 30
+2026-04-24 21:22:21,466: Train batch 920: loss: 0.03 grad norm: 334.54 lr(s): ['0.00000313', '0.00000094', '0.00000313'] time: 2.628
+2026-04-24 21:22:58,919: Train batch 930: loss: 0.00 grad norm: 0.83 lr(s): ['0.00000309', '0.00000093', '0.00000309'] time: 4.202
+2026-04-24 21:23:04,978: Batch 934: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:23:04,978: Debug batch 934
+2026-04-24 21:23:04,979: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2026-04-24 21:23:04,979: n_time_steps min/max: 200 / 1827
+2026-04-24 21:23:04,980: adjusted_lens min/max: 47 / 454
+2026-04-24 21:23:04,980: char_seq_lens min/max: 6 / 62
+2026-04-24 21:23:04,980: Any adjusted_lens <= 0? False
+2026-04-24 21:23:04,980: Any char_seq_lens <= 0? False
+2026-04-24 21:23:04,980: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:23:04,984: features finite? True
+2026-04-24 21:23:04,987: features abs max: 10.062500
+2026-04-24 21:23:04,987: labels min/max: 0 / 31
+2026-04-24 21:23:22,287: Train batch 940: loss: 0.00 grad norm: 0.79 lr(s): ['0.00000305', '0.00000092', '0.00000305'] time: 3.420
+2026-04-24 21:23:43,489: Train batch 950: loss: 0.03 grad norm: 10.23 lr(s): ['0.00000302', '0.00000091', '0.00000302'] time: 1.901
+2026-04-24 21:24:09,460: Train batch 960: loss: 0.00 grad norm: 16.11 lr(s): ['0.00000298', '0.00000089', '0.00000298'] time: 2.147
+2026-04-24 21:24:36,555: Train batch 970: loss: 0.02 grad norm: 10.14 lr(s): ['0.00000295', '0.00000088', '0.00000295'] time: 0.879
+2026-04-24 21:25:01,365: Train batch 980: loss: 0.00 grad norm: 1.00 lr(s): ['0.00000291', '0.00000087', '0.00000291'] time: 2.307
+2026-04-24 21:25:24,398: Train batch 990: loss: 0.10 grad norm: 9.40 lr(s): ['0.00000287', '0.00000086', '0.00000287'] time: 0.865
+2026-04-24 21:25:55,781: Train batch 1000: loss: 0.01 grad norm: 1.58 lr(s): ['0.00000284', '0.00000085', '0.00000284'] time: 1.088
+2026-04-24 21:25:55,782: Running test after training batch: 1000
+2026-04-24 21:26:10,062: Val batch 1000: WER (avg): 0.3628 CER (avg): 0.1730 CTC Loss (avg): 56.2536 time: 14.281
+2026-04-24 21:26:21,398: Batch 1008: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:26:21,398: Debug batch 1008
+2026-04-24 21:26:21,398: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26]
+2026-04-24 21:26:21,399: n_time_steps min/max: 200 / 2158
+2026-04-24 21:26:21,399: adjusted_lens min/max: 47 / 537
+2026-04-24 21:26:21,399: char_seq_lens min/max: 16 / 55
+2026-04-24 21:26:21,399: Any adjusted_lens <= 0? False
+2026-04-24 21:26:21,399: Any char_seq_lens <= 0? False
+2026-04-24 21:26:21,399: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:26:21,407: features finite? True
+2026-04-24 21:26:21,412: features abs max: 9.312500
+2026-04-24 21:26:21,412: labels min/max: 0 / 31
+2026-04-24 21:26:35,626: Train batch 1010: loss: 0.00 grad norm: 1.22 lr(s): ['0.00000280', '0.00000084', '0.00000280'] time: 5.624
+2026-04-24 21:27:22,346: Train batch 1020: loss: 0.60 grad norm: 14.10 lr(s): ['0.00000276', '0.00000083', '0.00000276'] time: 4.688
+2026-04-24 21:28:05,392: Train batch 1030: loss: 0.02 grad norm: 144.37 lr(s): ['0.00000273', '0.00000082', '0.00000273'] time: 2.948
+2026-04-24 21:28:37,118: Train batch 1040: loss: 0.00 grad norm: 0.37 lr(s): ['0.00000269', '0.00000081', '0.00000269'] time: 0.997
+2026-04-24 21:29:05,072: Train batch 1050: loss: 0.02 grad norm: 7.27 lr(s): ['0.00000266', '0.00000080', '0.00000266'] time: 0.964
+2026-04-24 21:29:35,633: Train batch 1060: loss: 0.00 grad norm: 0.07 lr(s): ['0.00000262', '0.00000079', '0.00000262'] time: 2.457
+2026-04-24 21:29:57,121: Train batch 1070: loss: 0.01 grad norm: 1.22 lr(s): ['0.00000258', '0.00000078', '0.00000258'] time: 0.990
+2026-04-24 21:30:26,525: Train batch 1080: loss: 0.01 grad norm: 48.18 lr(s): ['0.00000255', '0.00000076', '0.00000255'] time: 2.421
+2026-04-24 21:30:47,352: Train batch 1090: loss: 0.00 grad norm: 2.21 lr(s): ['0.00000251', '0.00000075', '0.00000251'] time: 2.645
+2026-04-24 21:31:16,338: Train batch 1100: loss: 0.00 grad norm: 0.39 lr(s): ['0.00000248', '0.00000074', '0.00000248'] time: 5.935
+2026-04-24 21:31:16,338: Running test after training batch: 1100
+2026-04-24 21:31:31,279: Val batch 1100: WER (avg): 0.3634 CER (avg): 0.1727 CTC Loss (avg): 56.5188 time: 14.941
+2026-04-24 21:31:57,894: Train batch 1110: loss: 0.01 grad norm: 7.62 lr(s): ['0.00000244', '0.00000073', '0.00000244'] time: 0.940
+2026-04-24 21:32:22,580: Train batch 1120: loss: 0.01 grad norm: 6.08 lr(s): ['0.00000240', '0.00000072', '0.00000240'] time: 1.074
+2026-04-24 21:32:52,826: Train batch 1130: loss: 0.01 grad norm: 1.21 lr(s): ['0.00000237', '0.00000071', '0.00000237'] time: 0.906
+2026-04-24 21:33:24,672: Train batch 1140: loss: 0.24 grad norm: 13.63 lr(s): ['0.00000233', '0.00000070', '0.00000233'] time: 0.962
+2026-04-24 21:33:52,985: Train batch 1150: loss: 0.00 grad norm: 1.32 lr(s): ['0.00000230', '0.00000069', '0.00000230'] time: 2.566
+2026-04-24 21:33:57,365: Batch 1153: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:33:57,365: Debug batch 1153
+2026-04-24 21:33:57,366: day_indicies: [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+2026-04-24 21:33:57,366: n_time_steps min/max: 200 / 1794
+2026-04-24 21:33:57,366: adjusted_lens min/max: 47 / 446
+2026-04-24 21:33:57,367: char_seq_lens min/max: 17 / 70
+2026-04-24 21:33:57,367: Any adjusted_lens <= 0? False
+2026-04-24 21:33:57,367: Any char_seq_lens <= 0? False
+2026-04-24 21:33:57,367: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:33:57,372: features finite? True
+2026-04-24 21:33:57,378: features abs max: 8.500000
+2026-04-24 21:33:57,378: labels min/max: 0 / 30
+2026-04-24 21:34:22,841: Train batch 1160: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000226', '0.00000068', '0.00000226'] time: 2.670
+2026-04-24 21:34:59,537: Train batch 1170: loss: 0.04 grad norm: 203.35 lr(s): ['0.00000223', '0.00000067', '0.00000223'] time: 5.511
+2026-04-24 21:35:26,910: Train batch 1180: loss: 0.00 grad norm: 1.20 lr(s): ['0.00000219', '0.00000066', '0.00000219'] time: 5.036
+2026-04-24 21:35:57,347: Train batch 1190: loss: 0.01 grad norm: 0.53 lr(s): ['0.00000216', '0.00000065', '0.00000216'] time: 2.497
+2026-04-24 21:36:29,386: Train batch 1200: loss: 0.01 grad norm: 4.28 lr(s): ['0.00000212', '0.00000064', '0.00000212'] time: 4.400
+2026-04-24 21:36:29,387: Running test after training batch: 1200
+2026-04-24 21:36:44,599: Val batch 1200: WER (avg): 0.3610 CER (avg): 0.1721 CTC Loss (avg): 56.4094 time: 15.212
+2026-04-24 21:36:44,599: New best val WER 0.3624 --> 0.3610
+2026-04-24 21:36:44,599: Checkpointing model
+2026-04-24 21:36:45,375: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 21:37:05,994: Train batch 1210: loss: 0.00 grad norm: 0.13 lr(s): ['0.00000209', '0.00000063', '0.00000209'] time: 2.521
+2026-04-24 21:37:37,692: Train batch 1220: loss: 0.00 grad norm: 0.42 lr(s): ['0.00000205', '0.00000062', '0.00000205'] time: 4.408
+2026-04-24 21:37:37,996: Batch 1221: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:37:37,997: Debug batch 1221
+2026-04-24 21:37:37,997: day_indicies: [34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33]
+2026-04-24 21:37:37,997: n_time_steps min/max: 200 / 1771
+2026-04-24 21:37:37,997: adjusted_lens min/max: 47 / 440
+2026-04-24 21:37:37,998: char_seq_lens min/max: 11 / 59
+2026-04-24 21:37:37,998: Any adjusted_lens <= 0? False
+2026-04-24 21:37:37,998: Any char_seq_lens <= 0? False
+2026-04-24 21:37:37,998: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:37:38,003: features finite? True
+2026-04-24 21:37:38,009: features abs max: 9.812500
+2026-04-24 21:37:38,009: labels min/max: 0 / 30
+2026-04-24 21:38:11,883: Train batch 1230: loss: 0.00 grad norm: 1.45 lr(s): ['0.00000202', '0.00000061', '0.00000202'] time: 3.347
+2026-04-24 21:38:34,658: Train batch 1240: loss: 0.00 grad norm: 2.09 lr(s): ['0.00000198', '0.00000059', '0.00000198'] time: 2.560
+2026-04-24 21:39:06,965: Train batch 1250: loss: 0.01 grad norm: 5.34 lr(s): ['0.00000195', '0.00000058', '0.00000195'] time: 5.258
+2026-04-24 21:39:31,312: Train batch 1260: loss: 0.00 grad norm: 1.60 lr(s): ['0.00000191', '0.00000057', '0.00000191'] time: 1.624
+2026-04-24 21:39:56,328: Train batch 1270: loss: 0.00 grad norm: 3.76 lr(s): ['0.00000188', '0.00000056', '0.00000188'] time: 1.126
+2026-04-24 21:40:23,961: Train batch 1280: loss: 0.00 grad norm: 0.25 lr(s): ['0.00000185', '0.00000055', '0.00000185'] time: 0.973
+2026-04-24 21:40:36,060: Batch 1284: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:40:36,060: Debug batch 1284
+2026-04-24 21:40:36,061: day_indicies: [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28]
+2026-04-24 21:40:36,061: n_time_steps min/max: 200 / 2091
+2026-04-24 21:40:36,061: adjusted_lens min/max: 47 / 520
+2026-04-24 21:40:36,061: char_seq_lens min/max: 12 / 67
+2026-04-24 21:40:36,061: Any adjusted_lens <= 0? False
+2026-04-24 21:40:36,062: Any char_seq_lens <= 0? False
+2026-04-24 21:40:36,062: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:40:36,065: features finite? True
+2026-04-24 21:40:36,071: features abs max: 9.750000
+2026-04-24 21:40:36,071: labels min/max: 0 / 30
+2026-04-24 21:40:55,689: Train batch 1290: loss: 0.00 grad norm: 0.81 lr(s): ['0.00000182', '0.00000054', '0.00000182'] time: 3.500
+2026-04-24 21:41:24,479: Train batch 1300: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000178', '0.00000053', '0.00000178'] time: 1.375
+2026-04-24 21:41:24,479: Running test after training batch: 1300
+2026-04-24 21:41:38,535: Val batch 1300: WER (avg): 0.3618 CER (avg): 0.1726 CTC Loss (avg): 56.6745 time: 14.055
+2026-04-24 21:42:06,922: Train batch 1310: loss: 0.00 grad norm: 0.62 lr(s): ['0.00000175', '0.00000052', '0.00000175'] time: 0.998
+2026-04-24 21:42:44,410: Batch 1319: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:42:44,410: Debug batch 1319
+2026-04-24 21:42:44,411: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+2026-04-24 21:42:44,411: n_time_steps min/max: 200 / 1702
+2026-04-24 21:42:44,411: adjusted_lens min/max: 47 / 423
+2026-04-24 21:42:44,411: char_seq_lens min/max: 17 / 61
+2026-04-24 21:42:44,412: Any adjusted_lens <= 0? False
+2026-04-24 21:42:44,412: Any char_seq_lens <= 0? False
+2026-04-24 21:42:44,412: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:42:44,417: features finite? True
+2026-04-24 21:42:44,420: features abs max: 10.125000
+2026-04-24 21:42:44,420: labels min/max: 0 / 30
+2026-04-24 21:42:48,155: Train batch 1320: loss: 0.01 grad norm: 205.24 lr(s): ['0.00000172', '0.00000052', '0.00000172'] time: 1.030
+2026-04-24 21:43:27,602: Train batch 1330: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000169', '0.00000051', '0.00000169'] time: 2.454
+2026-04-24 21:44:03,419: Train batch 1340: loss: 0.00 grad norm: 4.82 lr(s): ['0.00000165', '0.00000050', '0.00000165'] time: 3.187
+2026-04-24 21:44:36,990: Train batch 1350: loss: 0.00 grad norm: 0.33 lr(s): ['0.00000162', '0.00000049', '0.00000162'] time: 4.225
+2026-04-24 21:45:12,683: Train batch 1360: loss: 0.00 grad norm: 0.76 lr(s): ['0.00000159', '0.00000048', '0.00000159'] time: 3.629
+2026-04-24 21:45:36,594: Train batch 1370: loss: 0.00 grad norm: 0.85 lr(s): ['0.00000156', '0.00000047', '0.00000156'] time: 0.979
+2026-04-24 21:46:18,388: Train batch 1380: loss: 0.00 grad norm: 1.33 lr(s): ['0.00000153', '0.00000046', '0.00000153'] time: 3.026
+2026-04-24 21:46:51,053: Train batch 1390: loss: 0.00 grad norm: 0.56 lr(s): ['0.00000150', '0.00000045', '0.00000150'] time: 1.092
+2026-04-24 21:46:55,831: Batch 1393: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:46:55,831: Debug batch 1393
+2026-04-24 21:46:55,832: day_indicies: [31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+2026-04-24 21:46:55,832: n_time_steps min/max: 200 / 2059
+2026-04-24 21:46:55,832: adjusted_lens min/max: 47 / 512
+2026-04-24 21:46:55,832: char_seq_lens min/max: 13 / 57
+2026-04-24 21:46:55,833: Any adjusted_lens <= 0? False
+2026-04-24 21:46:55,833: Any char_seq_lens <= 0? False
+2026-04-24 21:46:55,833: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:46:55,836: features finite? True
+2026-04-24 21:46:55,842: features abs max: 8.937500
+2026-04-24 21:46:55,842: labels min/max: 0 / 30
+2026-04-24 21:47:19,266: Train batch 1400: loss: 0.01 grad norm: 87.03 lr(s): ['0.00000147', '0.00000044', '0.00000147'] time: 1.057
+2026-04-24 21:47:19,266: Running test after training batch: 1400
+2026-04-24 21:47:34,361: Val batch 1400: WER (avg): 0.3623 CER (avg): 0.1728 CTC Loss (avg): 56.7020 time: 15.094
+2026-04-24 21:48:14,588: Batch 1410: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:48:14,588: Debug batch 1410
+2026-04-24 21:48:14,588: day_indicies: [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 21:48:14,589: n_time_steps min/max: 149 / 1794
+2026-04-24 21:48:14,589: adjusted_lens min/max: 34 / 446
+2026-04-24 21:48:14,589: char_seq_lens min/max: 4 / 125
+2026-04-24 21:48:14,589: Any adjusted_lens <= 0? False
+2026-04-24 21:48:14,589: Any char_seq_lens <= 0? False
+2026-04-24 21:48:14,589: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:48:14,594: features finite? True
+2026-04-24 21:48:14,598: features abs max: 10.125000
+2026-04-24 21:48:14,598: labels min/max: 0 / 30
+2026-04-24 21:48:16,663: Train batch 1410: loss: 0.01 grad norm: 152.05 lr(s): ['0.00000144', '0.00000043', '0.00000144'] time: 2.116
+2026-04-24 21:48:45,866: Train batch 1420: loss: 0.00 grad norm: 0.19 lr(s): ['0.00000141', '0.00000042', '0.00000141'] time: 2.916
+2026-04-24 21:49:07,909: Train batch 1430: loss: 0.00 grad norm: 0.69 lr(s): ['0.00000138', '0.00000041', '0.00000138'] time: 0.893
+2026-04-24 21:49:38,867: Train batch 1440: loss: 0.00 grad norm: 3.03 lr(s): ['0.00000135', '0.00000041', '0.00000135'] time: 0.879
+2026-04-24 21:49:58,828: Train batch 1450: loss: 0.00 grad norm: 0.69 lr(s): ['0.00000132', '0.00000040', '0.00000132'] time: 0.902
+2026-04-24 21:50:19,386: Train batch 1460: loss: 0.04 grad norm: 45.85 lr(s): ['0.00000130', '0.00000039', '0.00000130'] time: 0.833
+2026-04-24 21:50:41,664: Train batch 1470: loss: 0.00 grad norm: 1.15 lr(s): ['0.00000127', '0.00000038', '0.00000127'] time: 0.936
+2026-04-24 21:51:01,088: Train batch 1480: loss: 0.03 grad norm: 219.14 lr(s): ['0.00000124', '0.00000037', '0.00000124'] time: 0.962
+2026-04-24 21:51:13,255: Batch 1485: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:51:13,255: Debug batch 1485
+2026-04-24 21:51:13,255: day_indicies: [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+2026-04-24 21:51:13,255: n_time_steps min/max: 200 / 1639
+2026-04-24 21:51:13,256: adjusted_lens min/max: 47 / 407
+2026-04-24 21:51:13,256: char_seq_lens min/max: 17 / 61
+2026-04-24 21:51:13,256: Any adjusted_lens <= 0? False
+2026-04-24 21:51:13,256: Any char_seq_lens <= 0? False
+2026-04-24 21:51:13,256: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:51:13,263: features finite? True
+2026-04-24 21:51:13,268: features abs max: 10.062500
+2026-04-24 21:51:13,268: labels min/max: 0 / 30
+2026-04-24 21:51:25,280: Train batch 1490: loss: 0.00 grad norm: 2.04 lr(s): ['0.00000122', '0.00000036', '0.00000122'] time: 2.488
+2026-04-24 21:51:45,811: Train batch 1500: loss: 0.00 grad norm: 0.73 lr(s): ['0.00000119', '0.00000036', '0.00000119'] time: 4.441
+2026-04-24 21:51:45,811: Running test after training batch: 1500
+2026-04-24 21:51:58,512: Val batch 1500: WER (avg): 0.3617 CER (avg): 0.1720 CTC Loss (avg): 56.6688 time: 12.701
+2026-04-24 21:52:37,209: Train batch 1510: loss: 0.00 grad norm: 0.73 lr(s): ['0.00000116', '0.00000035', '0.00000116'] time: 0.978
+2026-04-24 21:53:18,951: Train batch 1520: loss: 0.00 grad norm: 0.41 lr(s): ['0.00000114', '0.00000034', '0.00000114'] time: 6.161
+2026-04-24 21:53:34,385: Batch 1526: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:53:34,385: Debug batch 1526
+2026-04-24 21:53:34,385: day_indicies: [13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 21:53:34,385: n_time_steps min/max: 200 / 1707
+2026-04-24 21:53:34,386: adjusted_lens min/max: 47 / 424
+2026-04-24 21:53:34,386: char_seq_lens min/max: 14 / 64
+2026-04-24 21:53:34,386: Any adjusted_lens <= 0? False
+2026-04-24 21:53:34,386: Any char_seq_lens <= 0? False
+2026-04-24 21:53:34,386: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:53:34,391: features finite? True
+2026-04-24 21:53:34,395: features abs max: 8.187500
+2026-04-24 21:53:34,395: labels min/max: 0 / 31
+2026-04-24 21:53:48,384: Train batch 1530: loss: 0.18 grad norm: 7.38 lr(s): ['0.00000111', '0.00000033', '0.00000111'] time: 2.550
+2026-04-24 21:54:09,742: Train batch 1540: loss: 0.01 grad norm: 3.40 lr(s): ['0.00000109', '0.00000033', '0.00000109'] time: 4.299
+2026-04-24 21:54:42,173: Train batch 1550: loss: 0.00 grad norm: 0.38 lr(s): ['0.00000106', '0.00000032', '0.00000106'] time: 1.985
+2026-04-24 21:54:42,472: Batch 1551: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 21:54:42,473: Debug batch 1551
+2026-04-24 21:54:42,473: day_indicies: [23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+2026-04-24 21:54:42,473: n_time_steps min/max: 200 / 1828
+2026-04-24 21:54:42,473: adjusted_lens min/max: 47 / 454
+2026-04-24 21:54:42,474: char_seq_lens min/max: 16 / 62
+2026-04-24 21:54:42,474: Any adjusted_lens <= 0? False
+2026-04-24 21:54:42,474: Any char_seq_lens <= 0? False
+2026-04-24 21:54:42,475: Any adjusted_lens < char_seq_lens? True
+2026-04-24 21:54:42,480: features finite? True
+2026-04-24 21:54:42,483: features abs max: 10.000000
+2026-04-24 21:54:42,483: labels min/max: 0 / 30
+2026-04-24 21:55:02,945: Train batch 1560: loss: 0.01 grad norm: 60.47 lr(s): ['0.00000104', '0.00000031', '0.00000104'] time: -0.178
+2026-04-24 21:55:36,155: Train batch 1570: loss: 0.00 grad norm: 0.16 lr(s): ['0.00000102', '0.00000030', '0.00000102'] time: 8.948
+2026-04-24 21:55:55,252: Train batch 1580: loss: 0.00 grad norm: 0.92 lr(s): ['0.00000099', '0.00000030', '0.00000099'] time: 0.930
+2026-04-24 21:56:38,704: Train batch 1590: loss: 0.00 grad norm: 4.55 lr(s): ['0.00000097', '0.00000029', '0.00000097'] time: 2.178
+2026-04-24 21:57:07,448: Train batch 1600: loss: 0.00 grad norm: 25.49 lr(s): ['0.00000095', '0.00000028', '0.00000095'] time: 2.250
+2026-04-24 21:57:07,449: Running test after training batch: 1600
+2026-04-24 21:57:20,216: Val batch 1600: WER (avg): 0.3629 CER (avg): 0.1722 CTC Loss (avg): 56.4402 time: 12.767
+2026-04-24 21:57:44,751: Train batch 1610: loss: 0.00 grad norm: 1.69 lr(s): ['0.00000093', '0.00000028', '0.00000093'] time: 2.513
+2026-04-24 21:58:22,980: Train batch 1620: loss: 0.00 grad norm: 0.56 lr(s): ['0.00000091', '0.00000027', '0.00000091'] time: 2.665
+2026-04-24 21:58:57,042: Train batch 1630: loss: 0.00 grad norm: 0.17 lr(s): ['0.00000089', '0.00000027', '0.00000089'] time: 11.147
+2026-04-24 21:59:27,349: Train batch 1640: loss: 0.00 grad norm: 0.92 lr(s): ['0.00000087', '0.00000026', '0.00000087'] time: 2.301
+2026-04-24 21:59:57,402: Train batch 1650: loss: 0.03 grad norm: 13.43 lr(s): ['0.00000085', '0.00000025', '0.00000085'] time: 3.781
+2026-04-24 22:00:19,431: Train batch 1660: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000083', '0.00000025', '0.00000083'] time: 0.894
+2026-04-24 22:00:43,374: Train batch 1670: loss: 0.00 grad norm: 0.27 lr(s): ['0.00000081', '0.00000024', '0.00000081'] time: 3.630
+2026-04-24 22:00:43,646: Batch 1671: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:00:43,646: Debug batch 1671
+2026-04-24 22:00:43,647: day_indicies: [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+2026-04-24 22:00:43,647: n_time_steps min/max: 200 / 1691
+2026-04-24 22:00:43,647: adjusted_lens min/max: 47 / 420
+2026-04-24 22:00:43,647: char_seq_lens min/max: 13 / 58
+2026-04-24 22:00:43,647: Any adjusted_lens <= 0? False
+2026-04-24 22:00:43,648: Any char_seq_lens <= 0? False
+2026-04-24 22:00:43,648: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:00:43,650: features finite? True
+2026-04-24 22:00:43,653: features abs max: 9.937500
+2026-04-24 22:00:43,654: labels min/max: 0 / 30
+2026-04-24 22:00:45,885: Batch 1672: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:00:45,886: Debug batch 1672
+2026-04-24 22:00:45,886: day_indicies: [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31]
+2026-04-24 22:00:45,886: n_time_steps min/max: 149 / 1733
+2026-04-24 22:00:45,886: adjusted_lens min/max: 34 / 430
+2026-04-24 22:00:45,887: char_seq_lens min/max: 6 / 74
+2026-04-24 22:00:45,887: Any adjusted_lens <= 0? False
+2026-04-24 22:00:45,887: Any char_seq_lens <= 0? False
+2026-04-24 22:00:45,887: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:00:45,892: features finite? True
+2026-04-24 22:00:45,895: features abs max: 9.937500
+2026-04-24 22:00:45,895: labels min/max: 0 / 31
+2026-04-24 22:01:07,850: Train batch 1680: loss: 0.00 grad norm: 0.27 lr(s): ['0.00000079', '0.00000024', '0.00000079'] time: 0.969
+2026-04-24 22:01:48,380: Train batch 1690: loss: 0.00 grad norm: 0.54 lr(s): ['0.00000077', '0.00000023', '0.00000077'] time: 10.320
+2026-04-24 22:02:07,005: Train batch 1700: loss: 0.00 grad norm: 0.73 lr(s): ['0.00000076', '0.00000023', '0.00000076'] time: 2.137
+2026-04-24 22:02:07,005: Running test after training batch: 1700
+2026-04-24 22:02:19,572: Val batch 1700: WER (avg): 0.3623 CER (avg): 0.1721 CTC Loss (avg): 56.6378 time: 12.566
+2026-04-24 22:02:49,977: Train batch 1710: loss: 0.00 grad norm: 1.45 lr(s): ['0.00000074', '0.00000022', '0.00000074'] time: 1.992
+2026-04-24 22:03:28,704: Train batch 1720: loss: 0.01 grad norm: 2.08 lr(s): ['0.00000072', '0.00000022', '0.00000072'] time: 7.347
+2026-04-24 22:04:00,870: Train batch 1730: loss: 0.01 grad norm: 0.62 lr(s): ['0.00000071', '0.00000021', '0.00000071'] time: 1.217
+2026-04-24 22:04:26,566: Train batch 1740: loss: 0.00 grad norm: 15.44 lr(s): ['0.00000069', '0.00000021', '0.00000069'] time: 2.123
+2026-04-24 22:04:54,076: Train batch 1750: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000068', '0.00000020', '0.00000068'] time: 1.434
+2026-04-24 22:05:13,808: Train batch 1760: loss: 0.00 grad norm: 0.60 lr(s): ['0.00000066', '0.00000020', '0.00000066'] time: 2.710
+2026-04-24 22:05:48,081: Train batch 1770: loss: 0.00 grad norm: 0.63 lr(s): ['0.00000065', '0.00000020', '0.00000065'] time: 4.451
+2026-04-24 22:06:12,812: Train batch 1780: loss: 0.00 grad norm: 0.13 lr(s): ['0.00000064', '0.00000019', '0.00000064'] time: 4.398
+2026-04-24 22:06:32,803: Train batch 1790: loss: 0.00 grad norm: 0.50 lr(s): ['0.00000063', '0.00000019', '0.00000063'] time: 0.867
+2026-04-24 22:06:52,238: Train batch 1800: loss: 0.00 grad norm: 3.90 lr(s): ['0.00000061', '0.00000018', '0.00000061'] time: 0.787
+2026-04-24 22:06:52,238: Running test after training batch: 1800
+2026-04-24 22:07:04,883: Val batch 1800: WER (avg): 0.3619 CER (avg): 0.1723 CTC Loss (avg): 56.8506 time: 12.645
+2026-04-24 22:07:37,749: Train batch 1810: loss: 0.01 grad norm: 3.64 lr(s): ['0.00000060', '0.00000018', '0.00000060'] time: 0.929
+2026-04-24 22:08:06,539: Train batch 1820: loss: 0.01 grad norm: 3.02 lr(s): ['0.00000059', '0.00000018', '0.00000059'] time: 0.933
+2026-04-24 22:08:42,997: Train batch 1830: loss: 0.00 grad norm: 4.28 lr(s): ['0.00000058', '0.00000017', '0.00000058'] time: 0.935
+2026-04-24 22:09:07,921: Train batch 1840: loss: 0.00 grad norm: 16.00 lr(s): ['0.00000057', '0.00000017', '0.00000057'] time: 0.906
+2026-04-24 22:09:31,619: Train batch 1850: loss: 0.00 grad norm: 0.55 lr(s): ['0.00000056', '0.00000017', '0.00000056'] time: 3.432
+2026-04-24 22:09:58,631: Train batch 1860: loss: 0.00 grad norm: 0.21 lr(s): ['0.00000056', '0.00000017', '0.00000056'] time: 0.926
+2026-04-24 22:10:01,232: Batch 1863: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:10:01,233: Debug batch 1863
+2026-04-24 22:10:01,233: day_indicies: [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2026-04-24 22:10:01,233: n_time_steps min/max: 200 / 1828
+2026-04-24 22:10:01,233: adjusted_lens min/max: 47 / 454
+2026-04-24 22:10:01,234: char_seq_lens min/max: 13 / 61
+2026-04-24 22:10:01,234: Any adjusted_lens <= 0? False
+2026-04-24 22:10:01,234: Any char_seq_lens <= 0? False
+2026-04-24 22:10:01,234: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:10:01,237: features finite? True
+2026-04-24 22:10:01,240: features abs max: 9.750000
+2026-04-24 22:10:01,241: labels min/max: 0 / 30
+2026-04-24 22:10:34,773: Train batch 1870: loss: 0.01 grad norm: 8.96 lr(s): ['0.00000055', '0.00000016', '0.00000055'] time: 0.918
+2026-04-24 22:10:59,902: Train batch 1880: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000054', '0.00000016', '0.00000054'] time: 5.990
+2026-04-24 22:11:35,719: Train batch 1890: loss: 0.00 grad norm: 0.77 lr(s): ['0.00000053', '0.00000016', '0.00000053'] time: 5.990
+2026-04-24 22:12:07,946: Train batch 1900: loss: 0.01 grad norm: 32.07 lr(s): ['0.00000053', '0.00000016', '0.00000053'] time: 2.368
+2026-04-24 22:12:07,946: Running test after training batch: 1900
+2026-04-24 22:12:20,485: Val batch 1900: WER (avg): 0.3623 CER (avg): 0.1722 CTC Loss (avg): 56.5450 time: 12.539
+2026-04-24 22:13:00,999: Train batch 1910: loss: 0.00 grad norm: 2.03 lr(s): ['0.00000052', '0.00000016', '0.00000052'] time: 4.616
+2026-04-24 22:13:11,968: Batch 1914: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:13:11,968: Debug batch 1914
+2026-04-24 22:13:11,968: day_indicies: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+2026-04-24 22:13:11,969: n_time_steps min/max: 200 / 2264
+2026-04-24 22:13:11,969: adjusted_lens min/max: 47 / 563
+2026-04-24 22:13:11,969: char_seq_lens min/max: 9 / 61
+2026-04-24 22:13:11,969: Any adjusted_lens <= 0? False
+2026-04-24 22:13:11,969: Any char_seq_lens <= 0? False
+2026-04-24 22:13:11,970: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:13:11,975: features finite? True
+2026-04-24 22:13:11,981: features abs max: 9.250000
+2026-04-24 22:13:11,981: labels min/max: 0 / 30
+2026-04-24 22:13:31,410: Train batch 1920: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000052', '0.00000016', '0.00000052'] time: 4.361
+2026-04-24 22:13:58,331: Train batch 1930: loss: 0.00 grad norm: 0.50 lr(s): ['0.00000051', '0.00000015', '0.00000051'] time: 5.988
+2026-04-24 22:14:17,585: Train batch 1940: loss: 0.00 grad norm: 0.14 lr(s): ['0.00000051', '0.00000015', '0.00000051'] time: 0.925
+2026-04-24 22:14:52,884: Train batch 1950: loss: 0.01 grad norm: 80.57 lr(s): ['0.00000051', '0.00000015', '0.00000051'] time: 7.395
+2026-04-24 22:15:18,500: Train batch 1960: loss: 0.00 grad norm: 10.47 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.983
+2026-04-24 22:15:49,439: Train batch 1970: loss: 0.01 grad norm: 2.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.825
+2026-04-24 22:16:14,544: Train batch 1980: loss: 0.00 grad norm: 1.38 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.911
+2026-04-24 22:16:28,004: Train batch 1990: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.803
+2026-04-24 22:16:52,092: Train batch 2000: loss: 0.01 grad norm: 80.17 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.959
+2026-04-24 22:16:52,092: Running test after training batch: 2000
+2026-04-24 22:17:05,883: Val batch 2000: WER (avg): 0.3621 CER (avg): 0.1722 CTC Loss (avg): 56.7184 time: 13.791
+2026-04-24 22:17:33,037: Train batch 2010: loss: 0.01 grad norm: 40.93 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.854
+2026-04-24 22:17:51,262: Train batch 2020: loss: 0.01 grad norm: 120.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.908
+2026-04-24 22:18:23,188: Train batch 2030: loss: 0.00 grad norm: 0.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.720
+2026-04-24 22:18:24,857: Batch 2032: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:18:24,857: Debug batch 2032
+2026-04-24 22:18:24,857: day_indicies: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 22:18:24,857: n_time_steps min/max: 200 / 1548
+2026-04-24 22:18:24,858: adjusted_lens min/max: 47 / 384
+2026-04-24 22:18:24,858: char_seq_lens min/max: 6 / 61
+2026-04-24 22:18:24,858: Any adjusted_lens <= 0? False
+2026-04-24 22:18:24,858: Any char_seq_lens <= 0? False
+2026-04-24 22:18:24,858: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:18:24,862: features finite? True
+2026-04-24 22:18:24,865: features abs max: 10.062500
+2026-04-24 22:18:24,865: labels min/max: 0 / 30
+2026-04-24 22:18:47,119: Train batch 2040: loss: 0.07 grad norm: 116.78 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.525
+2026-04-24 22:19:17,873: Train batch 2050: loss: 0.01 grad norm: 4.08 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.410
+2026-04-24 22:19:40,985: Train batch 2060: loss: 0.00 grad norm: 0.66 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.069
+2026-04-24 22:20:01,344: Train batch 2070: loss: 0.00 grad norm: 1.40 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.181
+2026-04-24 22:20:23,862: Train batch 2080: loss: 0.00 grad norm: 1.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.926
+2026-04-24 22:20:51,360: Train batch 2090: loss: 0.02 grad norm: 107.68 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.210
+2026-04-24 22:21:13,591: Train batch 2100: loss: 0.00 grad norm: 0.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.606
+2026-04-24 22:21:13,591: Running test after training batch: 2100
+2026-04-24 22:21:27,381: Val batch 2100: WER (avg): 0.3618 CER (avg): 0.1720 CTC Loss (avg): 56.7087 time: 13.790
+2026-04-24 22:22:02,187: Train batch 2110: loss: 0.00 grad norm: 0.57 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.030
+2026-04-24 22:22:31,396: Train batch 2120: loss: 0.00 grad norm: 0.27 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.411
+2026-04-24 22:23:15,004: Train batch 2130: loss: 0.00 grad norm: 0.30 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.669
+2026-04-24 22:23:49,904: Train batch 2140: loss: 0.00 grad norm: 1.63 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.772
+2026-04-24 22:24:16,914: Train batch 2150: loss: 0.00 grad norm: 1.12 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.948
+2026-04-24 22:24:37,267: Train batch 2160: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: -0.234
+2026-04-24 22:25:06,482: Train batch 2170: loss: 0.00 grad norm: 0.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.655
+2026-04-24 22:25:59,592: Train batch 2180: loss: 0.00 grad norm: 10.59 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.408
+2026-04-24 22:26:20,487: Train batch 2190: loss: 0.02 grad norm: 3.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.128
+2026-04-24 22:26:42,695: Train batch 2200: loss: 0.00 grad norm: 8.00 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.194
+2026-04-24 22:26:42,695: Running test after training batch: 2200
+2026-04-24 22:27:04,021: Val batch 2200: WER (avg): 0.3618 CER (avg): 0.1721 CTC Loss (avg): 56.8569 time: 21.327
+2026-04-24 22:27:25,561: Train batch 2210: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.168
+2026-04-24 22:28:01,190: Train batch 2220: loss: 0.01 grad norm: 39.16 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.717
+2026-04-24 22:28:17,556: Batch 2230: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:28:17,556: Debug batch 2230
+2026-04-24 22:28:17,556: day_indicies: [33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+2026-04-24 22:28:17,556: n_time_steps min/max: 200 / 2091
+2026-04-24 22:28:17,557: adjusted_lens min/max: 47 / 520
+2026-04-24 22:28:17,557: char_seq_lens min/max: 15 / 67
+2026-04-24 22:28:17,557: Any adjusted_lens <= 0? False
+2026-04-24 22:28:17,557: Any char_seq_lens <= 0? False
+2026-04-24 22:28:17,557: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:28:17,565: features finite? True
+2026-04-24 22:28:17,571: features abs max: 9.750000
+2026-04-24 22:28:17,571: labels min/max: 0 / 30
+2026-04-24 22:28:22,991: Train batch 2230: loss: 0.00 grad norm: 0.13 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.484
+2026-04-24 22:28:46,441: Train batch 2240: loss: 0.02 grad norm: 33.93 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: -0.151
+2026-04-24 22:29:16,888: Train batch 2250: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: -0.171
+2026-04-24 22:29:44,448: Train batch 2260: loss: 0.00 grad norm: 5.68 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.306
+2026-04-24 22:30:05,739: Train batch 2270: loss: 0.01 grad norm: 3.59 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.962
+2026-04-24 22:30:50,974: Train batch 2280: loss: 0.01 grad norm: 1.80 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.198
+2026-04-24 22:31:15,229: Train batch 2290: loss: 0.00 grad norm: 0.39 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.957
+2026-04-24 22:31:31,677: Train batch 2300: loss: 0.08 grad norm: 122.46 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.958
+2026-04-24 22:31:31,677: Running test after training batch: 2300
+2026-04-24 22:31:45,501: Val batch 2300: WER (avg): 0.3609 CER (avg): 0.1719 CTC Loss (avg): 56.7961 time: 13.824
+2026-04-24 22:31:45,501: New best val WER 0.3610 --> 0.3609
+2026-04-24 22:31:45,501: Checkpointing model
+2026-04-24 22:31:46,269: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 22:32:15,366: Train batch 2310: loss: 0.01 grad norm: 5.69 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.735
+2026-04-24 22:32:42,659: Train batch 2320: loss: 0.00 grad norm: 1.33 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.956
+2026-04-24 22:33:05,588: Train batch 2330: loss: 0.00 grad norm: 2.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.944
+2026-04-24 22:33:43,664: Train batch 2340: loss: 0.01 grad norm: 435.65 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.652
+2026-04-24 22:34:13,280: Train batch 2350: loss: 0.00 grad norm: 31.85 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.930
+2026-04-24 22:34:36,261: Train batch 2360: loss: 0.02 grad norm: 83.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.406
+2026-04-24 22:34:59,848: Train batch 2370: loss: 0.00 grad norm: 1.75 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: -0.197
+2026-04-24 22:35:30,766: Train batch 2380: loss: 0.02 grad norm: 160.13 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.458
+2026-04-24 22:36:05,938: Train batch 2390: loss: 0.00 grad norm: 1.58 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.898
+2026-04-24 22:36:31,150: Train batch 2400: loss: 0.01 grad norm: 3.49 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.998
+2026-04-24 22:36:31,151: Running test after training batch: 2400
+2026-04-24 22:36:54,772: Val batch 2400: WER (avg): 0.3623 CER (avg): 0.1722 CTC Loss (avg): 56.7334 time: 23.621
+2026-04-24 22:37:31,104: Train batch 2410: loss: 0.00 grad norm: 0.45 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.345
+2026-04-24 22:37:54,128: Train batch 2420: loss: 0.00 grad norm: 0.65 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.504
+2026-04-24 22:38:33,959: Train batch 2430: loss: 0.00 grad norm: 0.45 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.494
+2026-04-24 22:39:08,564: Train batch 2440: loss: 0.01 grad norm: 4.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.756
+2026-04-24 22:39:31,131: Train batch 2450: loss: 0.01 grad norm: 1605.72 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.948
+2026-04-24 22:39:57,947: Train batch 2460: loss: 0.00 grad norm: 2.08 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.933
+2026-04-24 22:40:29,461: Train batch 2470: loss: 0.00 grad norm: 0.40 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.453
+2026-04-24 22:40:51,963: Train batch 2480: loss: 0.00 grad norm: 0.68 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.215
+2026-04-24 22:41:24,592: Train batch 2490: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.555
+2026-04-24 22:41:56,600: Train batch 2500: loss: 0.00 grad norm: 0.78 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.931
+2026-04-24 22:41:56,600: Running test after training batch: 2500
+2026-04-24 22:42:10,329: Val batch 2500: WER (avg): 0.3618 CER (avg): 0.1721 CTC Loss (avg): 56.6480 time: 13.729
+2026-04-24 22:42:10,613: Batch 2501: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:42:10,613: Debug batch 2501
+2026-04-24 22:42:10,614: day_indicies: [11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 22:42:10,614: n_time_steps min/max: 200 / 1630
+2026-04-24 22:42:10,614: adjusted_lens min/max: 47 / 405
+2026-04-24 22:42:10,614: char_seq_lens min/max: 17 / 54
+2026-04-24 22:42:10,614: Any adjusted_lens <= 0? False
+2026-04-24 22:42:10,615: Any char_seq_lens <= 0? False
+2026-04-24 22:42:10,615: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:42:10,619: features finite? True
+2026-04-24 22:42:10,624: features abs max: 10.062500
+2026-04-24 22:42:10,624: labels min/max: 0 / 30
+2026-04-24 22:42:35,695: Train batch 2510: loss: 0.00 grad norm: 1.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.799
+2026-04-24 22:43:01,536: Train batch 2520: loss: 0.02 grad norm: 16.34 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.733
+2026-04-24 22:43:22,463: Train batch 2530: loss: 0.00 grad norm: 0.30 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.162
+2026-04-24 22:44:14,923: Train batch 2540: loss: 0.01 grad norm: 1.75 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.542
+2026-04-24 22:44:33,735: Train batch 2550: loss: 0.02 grad norm: 35.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.966
+2026-04-24 22:44:59,417: Train batch 2560: loss: 0.00 grad norm: 13.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.978
+2026-04-24 22:45:33,476: Train batch 2570: loss: 0.00 grad norm: 0.89 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.008
+2026-04-24 22:46:15,083: Train batch 2580: loss: 0.00 grad norm: 1.81 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.732
+2026-04-24 22:46:48,060: Train batch 2590: loss: 0.01 grad norm: 21.69 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.555
+2026-04-24 22:47:08,303: Train batch 2600: loss: 0.01 grad norm: 4.31 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.893
+2026-04-24 22:47:08,303: Running test after training batch: 2600
+2026-04-24 22:47:23,435: Val batch 2600: WER (avg): 0.3619 CER (avg): 0.1723 CTC Loss (avg): 56.8579 time: 15.132
+2026-04-24 22:47:54,957: Train batch 2610: loss: 0.01 grad norm: 2.99 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.568
+2026-04-24 22:48:24,502: Train batch 2620: loss: 0.00 grad norm: 0.21 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.235
+2026-04-24 22:48:40,975: Batch 2625: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:48:40,975: Debug batch 2625
+2026-04-24 22:48:40,975: day_indicies: [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+2026-04-24 22:48:40,975: n_time_steps min/max: 200 / 2094
+2026-04-24 22:48:40,976: adjusted_lens min/max: 47 / 521
+2026-04-24 22:48:40,976: char_seq_lens min/max: 9 / 67
+2026-04-24 22:48:40,976: Any adjusted_lens <= 0? False
+2026-04-24 22:48:40,976: Any char_seq_lens <= 0? False
+2026-04-24 22:48:40,977: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:48:40,980: features finite? True
+2026-04-24 22:48:40,986: features abs max: 8.187500
+2026-04-24 22:48:40,986: labels min/max: 0 / 30
+2026-04-24 22:49:00,498: Train batch 2630: loss: 0.00 grad norm: 0.73 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.361
+2026-04-24 22:49:35,653: Train batch 2640: loss: 0.00 grad norm: 1.65 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.958
+2026-04-24 22:50:20,044: Train batch 2650: loss: 0.00 grad norm: 0.18 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.284
+2026-04-24 22:50:46,880: Train batch 2660: loss: 0.01 grad norm: 8.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.699
+2026-04-24 22:51:17,230: Train batch 2670: loss: 0.00 grad norm: 0.80 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.207
+2026-04-24 22:51:53,038: Train batch 2680: loss: 0.00 grad norm: 0.53 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.477
+2026-04-24 22:52:35,908: Train batch 2690: loss: 0.00 grad norm: 0.21 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.294
+2026-04-24 22:53:19,063: Train batch 2700: loss: 0.00 grad norm: 0.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.581
+2026-04-24 22:53:19,064: Running test after training batch: 2700
+2026-04-24 22:53:34,256: Val batch 2700: WER (avg): 0.3609 CER (avg): 0.1719 CTC Loss (avg): 56.7964 time: 15.193
+2026-04-24 22:53:34,256: New best val CER 0.1719 --> 0.1719
+2026-04-24 22:53:34,256: Checkpointing model
+2026-04-24 22:53:35,071: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 22:54:09,419: Train batch 2710: loss: 0.00 grad norm: 4.82 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.000
+2026-04-24 22:54:40,750: Train batch 2720: loss: 0.01 grad norm: 385.10 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.693
+2026-04-24 22:55:04,464: Train batch 2730: loss: 0.00 grad norm: 0.16 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.675
+2026-04-24 22:55:49,999: Train batch 2740: loss: 0.01 grad norm: 3.21 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.075
+2026-04-24 22:56:25,811: Train batch 2750: loss: 0.00 grad norm: 104.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.723
+2026-04-24 22:56:56,178: Train batch 2760: loss: 0.00 grad norm: 0.26 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.014
+2026-04-24 22:57:06,644: Batch 2765: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:57:06,644: Debug batch 2765
+2026-04-24 22:57:06,645: day_indicies: [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40]
+2026-04-24 22:57:06,645: n_time_steps min/max: 200 / 1566
+2026-04-24 22:57:06,645: adjusted_lens min/max: 47 / 389
+2026-04-24 22:57:06,646: char_seq_lens min/max: 10 / 50
+2026-04-24 22:57:06,646: Any adjusted_lens <= 0? False
+2026-04-24 22:57:06,646: Any char_seq_lens <= 0? False
+2026-04-24 22:57:06,646: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:57:06,649: features finite? True
+2026-04-24 22:57:06,654: features abs max: 10.125000
+2026-04-24 22:57:06,654: labels min/max: 0 / 30
+2026-04-24 22:57:15,740: Batch 2769: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:57:15,740: Debug batch 2769
+2026-04-24 22:57:15,740: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38]
+2026-04-24 22:57:15,740: n_time_steps min/max: 200 / 1568
+2026-04-24 22:57:15,741: adjusted_lens min/max: 47 / 389
+2026-04-24 22:57:15,741: char_seq_lens min/max: 17 / 50
+2026-04-24 22:57:15,741: Any adjusted_lens <= 0? False
+2026-04-24 22:57:15,741: Any char_seq_lens <= 0? False
+2026-04-24 22:57:15,742: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:57:15,747: features finite? True
+2026-04-24 22:57:15,752: features abs max: 9.125000
+2026-04-24 22:57:15,752: labels min/max: 0 / 30
+2026-04-24 22:57:18,101: Train batch 2770: loss: 0.00 grad norm: 0.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.064
+2026-04-24 22:57:54,276: Train batch 2780: loss: 0.01 grad norm: 6.41 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.856
+2026-04-24 22:58:31,387: Train batch 2790: loss: 0.00 grad norm: 0.06 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.635
+2026-04-24 22:58:58,440: Batch 2798: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 22:58:58,440: Debug batch 2798
+2026-04-24 22:58:58,440: day_indicies: [23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27]
+2026-04-24 22:58:58,441: n_time_steps min/max: 200 / 1828
+2026-04-24 22:58:58,441: adjusted_lens min/max: 47 / 454
+2026-04-24 22:58:58,441: char_seq_lens min/max: 20 / 54
+2026-04-24 22:58:58,441: Any adjusted_lens <= 0? False
+2026-04-24 22:58:58,442: Any char_seq_lens <= 0? False
+2026-04-24 22:58:58,442: Any adjusted_lens < char_seq_lens? True
+2026-04-24 22:58:58,447: features finite? True
+2026-04-24 22:58:58,453: features abs max: 9.750000
+2026-04-24 22:58:58,453: labels min/max: 0 / 30
+2026-04-24 22:59:11,038: Train batch 2800: loss: 0.00 grad norm: 0.60 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.115
+2026-04-24 22:59:11,038: Running test after training batch: 2800
+2026-04-24 22:59:26,763: Val batch 2800: WER (avg): 0.3617 CER (avg): 0.1716 CTC Loss (avg): 56.6384 time: 15.725
+2026-04-24 23:00:10,323: Train batch 2810: loss: 0.01 grad norm: 2.83 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 13.271
+2026-04-24 23:00:37,887: Train batch 2820: loss: 0.00 grad norm: 0.12 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.208
+2026-04-24 23:01:03,717: Train batch 2830: loss: 0.01 grad norm: 3.64 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.888
+2026-04-24 23:01:27,686: Train batch 2840: loss: 0.00 grad norm: 29.37 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.515
+2026-04-24 23:01:58,484: Train batch 2850: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.907
+2026-04-24 23:02:20,767: Train batch 2860: loss: 0.00 grad norm: 0.78 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.955
+2026-04-24 23:02:45,368: Train batch 2870: loss: 0.00 grad norm: 1.85 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.600
+2026-04-24 23:03:15,012: Train batch 2880: loss: 0.00 grad norm: 0.57 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.898
+2026-04-24 23:03:39,568: Train batch 2890: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.191
+2026-04-24 23:04:11,818: Train batch 2900: loss: 0.00 grad norm: 26.80 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.929
+2026-04-24 23:04:11,818: Running test after training batch: 2900
+2026-04-24 23:04:25,553: Val batch 2900: WER (avg): 0.3611 CER (avg): 0.1719 CTC Loss (avg): 56.6377 time: 13.735
+2026-04-24 23:04:46,924: Train batch 2910: loss: 0.14 grad norm: 5.90 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.192
+2026-04-24 23:05:14,166: Train batch 2920: loss: 0.00 grad norm: 0.48 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.773
+2026-04-24 23:05:35,621: Train batch 2930: loss: 0.00 grad norm: 3.92 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.834
+2026-04-24 23:05:53,799: Train batch 2940: loss: 0.00 grad norm: 2.06 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.122
+2026-04-24 23:06:11,055: Train batch 2950: loss: 0.00 grad norm: 66.29 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.156
+2026-04-24 23:06:39,128: Train batch 2960: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.825
+2026-04-24 23:07:17,795: Train batch 2970: loss: 0.00 grad norm: 0.26 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.818
+2026-04-24 23:07:43,146: Train batch 2980: loss: 0.00 grad norm: 0.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.587
+2026-04-24 23:08:12,197: Train batch 2990: loss: 0.00 grad norm: 0.47 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.952
+2026-04-24 23:08:43,075: Train batch 3000: loss: 0.01 grad norm: 3.96 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.894
+2026-04-24 23:08:43,075: Running test after training batch: 3000
+2026-04-24 23:08:55,774: Val batch 3000: WER (avg): 0.3620 CER (avg): 0.1720 CTC Loss (avg): 56.6846 time: 12.699
+2026-04-24 23:09:20,006: Train batch 3010: loss: 0.03 grad norm: 1031.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.123
+2026-04-24 23:09:48,870: Train batch 3020: loss: 0.00 grad norm: 0.22 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.673
+2026-04-24 23:10:17,441: Train batch 3030: loss: 0.00 grad norm: 0.21 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.953
+2026-04-24 23:10:40,337: Train batch 3040: loss: 0.01 grad norm: 67.02 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.949
+2026-04-24 23:11:09,381: Train batch 3050: loss: 0.02 grad norm: 8.72 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.075
+2026-04-24 23:11:32,627: Train batch 3060: loss: 0.01 grad norm: 7.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.367
+2026-04-24 23:12:17,139: Train batch 3070: loss: 0.00 grad norm: 1.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.164
+2026-04-24 23:12:38,985: Train batch 3080: loss: 0.07 grad norm: 13.50 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.841
+2026-04-24 23:13:12,629: Train batch 3090: loss: 0.00 grad norm: 0.15 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.829
+2026-04-24 23:13:57,388: Train batch 3100: loss: 0.00 grad norm: 0.69 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.853
+2026-04-24 23:13:57,388: Running test after training batch: 3100
+2026-04-24 23:14:11,022: Val batch 3100: WER (avg): 0.3612 CER (avg): 0.1719 CTC Loss (avg): 56.6770 time: 13.633
+2026-04-24 23:14:26,716: Train batch 3110: loss: 0.00 grad norm: 0.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: -0.214
+2026-04-24 23:14:57,723: Train batch 3120: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.445
+2026-04-24 23:15:24,976: Train batch 3130: loss: 0.00 grad norm: 0.07 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.973
+2026-04-24 23:15:51,861: Train batch 3140: loss: 0.01 grad norm: 168.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.843
+2026-04-24 23:15:58,046: Batch 3145: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:15:58,047: Debug batch 3145
+2026-04-24 23:15:58,047: day_indicies: [26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44]
+2026-04-24 23:15:58,047: n_time_steps min/max: 200 / 2091
+2026-04-24 23:15:58,047: adjusted_lens min/max: 47 / 520
+2026-04-24 23:15:58,048: char_seq_lens min/max: 18 / 67
+2026-04-24 23:15:58,048: Any adjusted_lens <= 0? False
+2026-04-24 23:15:58,048: Any char_seq_lens <= 0? False
+2026-04-24 23:15:58,048: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:15:58,053: features finite? True
+2026-04-24 23:15:58,059: features abs max: 10.125000
+2026-04-24 23:15:58,059: labels min/max: 0 / 30
+2026-04-24 23:16:14,521: Train batch 3150: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.174
+2026-04-24 23:16:40,003: Train batch 3160: loss: 0.00 grad norm: 0.32 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.181
+2026-04-24 23:17:02,442: Train batch 3170: loss: 0.00 grad norm: 0.51 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.025
+2026-04-24 23:17:38,095: Train batch 3180: loss: 0.00 grad norm: 0.18 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.019
+2026-04-24 23:18:05,063: Train batch 3190: loss: 0.01 grad norm: 2.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.055
+2026-04-24 23:18:22,719: Train batch 3200: loss: 0.03 grad norm: 16.90 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.827
+2026-04-24 23:18:22,719: Running test after training batch: 3200
+2026-04-24 23:18:35,344: Val batch 3200: WER (avg): 0.3616 CER (avg): 0.1719 CTC Loss (avg): 56.8753 time: 12.624
+2026-04-24 23:18:50,935: Train batch 3210: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.965
+2026-04-24 23:19:14,674: Train batch 3220: loss: 0.00 grad norm: 0.34 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.969
+2026-04-24 23:19:42,795: Train batch 3230: loss: 0.00 grad norm: 0.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.894
+2026-04-24 23:20:08,232: Train batch 3240: loss: 0.00 grad norm: 3.31 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.836
+2026-04-24 23:20:48,157: Train batch 3250: loss: 0.01 grad norm: 1.85 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.956
+2026-04-24 23:21:10,998: Train batch 3260: loss: 0.00 grad norm: 1.78 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.344
+2026-04-24 23:21:27,383: Batch 3265: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:21:27,383: Debug batch 3265
+2026-04-24 23:21:27,383: day_indicies: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 23:21:27,383: n_time_steps min/max: 200 / 2059
+2026-04-24 23:21:27,383: adjusted_lens min/max: 47 / 512
+2026-04-24 23:21:27,384: char_seq_lens min/max: 12 / 54
+2026-04-24 23:21:27,384: Any adjusted_lens <= 0? False
+2026-04-24 23:21:27,384: Any char_seq_lens <= 0? False
+2026-04-24 23:21:27,384: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:21:27,389: features finite? True
+2026-04-24 23:21:27,395: features abs max: 9.250000
+2026-04-24 23:21:27,395: labels min/max: 0 / 30
+2026-04-24 23:21:48,713: Train batch 3270: loss: 0.00 grad norm: 0.49 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.272
+2026-04-24 23:22:14,155: Batch 3280: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:22:14,155: Debug batch 3280
+2026-04-24 23:22:14,155: day_indicies: [27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 27, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 23:22:14,156: n_time_steps min/max: 200 / 2091
+2026-04-24 23:22:14,156: adjusted_lens min/max: 47 / 520
+2026-04-24 23:22:14,156: char_seq_lens min/max: 18 / 67
+2026-04-24 23:22:14,156: Any adjusted_lens <= 0? False
+2026-04-24 23:22:14,156: Any char_seq_lens <= 0? False
+2026-04-24 23:22:14,156: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:22:14,161: features finite? True
+2026-04-24 23:22:14,167: features abs max: 9.250000
+2026-04-24 23:22:14,167: labels min/max: 0 / 30
+2026-04-24 23:22:18,604: Train batch 3280: loss: 0.00 grad norm: 0.31 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.499
+2026-04-24 23:22:44,380: Train batch 3290: loss: 0.02 grad norm: 6.00 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.962
+2026-04-24 23:23:11,237: Train batch 3300: loss: 0.00 grad norm: 0.59 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.120
+2026-04-24 23:23:11,238: Running test after training batch: 3300
+2026-04-24 23:23:23,968: Val batch 3300: WER (avg): 0.3607 CER (avg): 0.1714 CTC Loss (avg): 56.7690 time: 12.730
+2026-04-24 23:23:23,968: New best val WER 0.3609 --> 0.3607
+2026-04-24 23:23:23,968: Checkpointing model
+2026-04-24 23:23:24,650: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 23:23:56,164: Train batch 3310: loss: 0.00 grad norm: 0.63 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.913
+2026-04-24 23:23:59,415: Batch 3312: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:23:59,415: Debug batch 3312
+2026-04-24 23:23:59,415: day_indicies: [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-24 23:23:59,415: n_time_steps min/max: 200 / 1794
+2026-04-24 23:23:59,416: adjusted_lens min/max: 47 / 446
+2026-04-24 23:23:59,416: char_seq_lens min/max: 14 / 59
+2026-04-24 23:23:59,417: Any adjusted_lens <= 0? False
+2026-04-24 23:23:59,417: Any char_seq_lens <= 0? False
+2026-04-24 23:23:59,417: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:23:59,420: features finite? True
+2026-04-24 23:23:59,423: features abs max: 10.187500
+2026-04-24 23:23:59,423: labels min/max: 0 / 30
+2026-04-24 23:24:16,777: Train batch 3320: loss: 0.00 grad norm: 0.32 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.706
+2026-04-24 23:24:46,782: Train batch 3330: loss: 0.00 grad norm: 0.52 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.306
+2026-04-24 23:25:17,426: Train batch 3340: loss: 0.01 grad norm: 45.03 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.234
+2026-04-24 23:25:31,720: Batch 3344: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:25:31,720: Debug batch 3344
+2026-04-24 23:25:31,720: day_indicies: [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+2026-04-24 23:25:31,721: n_time_steps min/max: 200 / 2059
+2026-04-24 23:25:31,721: adjusted_lens min/max: 47 / 512
+2026-04-24 23:25:31,721: char_seq_lens min/max: 14 / 55
+2026-04-24 23:25:31,721: Any adjusted_lens <= 0? False
+2026-04-24 23:25:31,722: Any char_seq_lens <= 0? False
+2026-04-24 23:25:31,722: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:25:31,729: features finite? True
+2026-04-24 23:25:31,735: features abs max: 10.062500
+2026-04-24 23:25:31,735: labels min/max: 0 / 30
+2026-04-24 23:25:51,802: Train batch 3350: loss: 0.00 grad norm: 0.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.863
+2026-04-24 23:26:21,262: Train batch 3360: loss: 0.00 grad norm: 10.72 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.996
+2026-04-24 23:26:45,157: Train batch 3370: loss: 0.00 grad norm: 0.92 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.937
+2026-04-24 23:27:03,268: Train batch 3380: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.845
+2026-04-24 23:27:35,123: Train batch 3390: loss: 0.00 grad norm: 1.61 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.883
+2026-04-24 23:27:50,521: Train batch 3400: loss: 0.00 grad norm: 77.91 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.951
+2026-04-24 23:27:50,521: Running test after training batch: 3400
+2026-04-24 23:28:03,186: Val batch 3400: WER (avg): 0.3607 CER (avg): 0.1717 CTC Loss (avg): 56.9136 time: 12.666
+2026-04-24 23:28:39,199: Train batch 3410: loss: 0.00 grad norm: 2.61 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.858
+2026-04-24 23:29:09,761: Train batch 3420: loss: 0.01 grad norm: 1.50 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.725
+2026-04-24 23:29:42,385: Train batch 3430: loss: 0.00 grad norm: 0.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.694
+2026-04-24 23:30:04,122: Train batch 3440: loss: 0.00 grad norm: 0.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.236
+2026-04-24 23:30:42,253: Train batch 3450: loss: 0.00 grad norm: 0.15 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.331
+2026-04-24 23:31:18,700: Train batch 3460: loss: 0.00 grad norm: 0.17 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.897
+2026-04-24 23:31:46,127: Train batch 3470: loss: 0.00 grad norm: 0.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.903
+2026-04-24 23:32:25,232: Train batch 3480: loss: 0.00 grad norm: 0.42 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.757
+2026-04-24 23:32:53,609: Train batch 3490: loss: 0.00 grad norm: 1.84 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.969
+2026-04-24 23:33:18,361: Train batch 3500: loss: 0.02 grad norm: 48.08 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.170
+2026-04-24 23:33:18,361: Running test after training batch: 3500
+2026-04-24 23:33:32,144: Val batch 3500: WER (avg): 0.3609 CER (avg): 0.1717 CTC Loss (avg): 56.7951 time: 13.783
+2026-04-24 23:34:08,309: Train batch 3510: loss: 0.00 grad norm: 0.60 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.432
+2026-04-24 23:34:32,353: Train batch 3520: loss: 0.00 grad norm: 0.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.173
+2026-04-24 23:34:56,979: Train batch 3530: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.969
+2026-04-24 23:34:57,321: Batch 3531: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:34:57,321: Debug batch 3531
+2026-04-24 23:34:57,321: day_indicies: [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+2026-04-24 23:34:57,322: n_time_steps min/max: 200 / 2319
+2026-04-24 23:34:57,322: adjusted_lens min/max: 47 / 577
+2026-04-24 23:34:57,322: char_seq_lens min/max: 19 / 58
+2026-04-24 23:34:57,322: Any adjusted_lens <= 0? False
+2026-04-24 23:34:57,322: Any char_seq_lens <= 0? False
+2026-04-24 23:34:57,323: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:34:57,330: features finite? True
+2026-04-24 23:34:57,336: features abs max: 10.187500
+2026-04-24 23:34:57,336: labels min/max: 0 / 30
+2026-04-24 23:35:25,686: Train batch 3540: loss: 0.01 grad norm: 2.49 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.179
+2026-04-24 23:35:49,741: Train batch 3550: loss: 0.01 grad norm: 5.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.934
+2026-04-24 23:36:13,419: Train batch 3560: loss: 0.00 grad norm: 0.39 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.878
+2026-04-24 23:36:52,240: Train batch 3570: loss: 0.00 grad norm: 0.85 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.940
+2026-04-24 23:37:21,356: Train batch 3580: loss: 0.00 grad norm: 0.35 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.868
+2026-04-24 23:37:49,094: Train batch 3590: loss: 0.00 grad norm: 0.63 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.493
+2026-04-24 23:37:50,476: Batch 3592: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:37:50,476: Debug batch 3592
+2026-04-24 23:37:50,476: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24]
+2026-04-24 23:37:50,477: n_time_steps min/max: 149 / 1662
+2026-04-24 23:37:50,477: adjusted_lens min/max: 34 / 413
+2026-04-24 23:37:50,477: char_seq_lens min/max: 3 / 125
+2026-04-24 23:37:50,477: Any adjusted_lens <= 0? False
+2026-04-24 23:37:50,477: Any char_seq_lens <= 0? False
+2026-04-24 23:37:50,477: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:37:50,482: features finite? True
+2026-04-24 23:37:50,487: features abs max: 10.062500
+2026-04-24 23:37:50,487: labels min/max: 0 / 30
+2026-04-24 23:38:06,065: Train batch 3600: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.488
+2026-04-24 23:38:06,065: Running test after training batch: 3600
+2026-04-24 23:38:20,098: Val batch 3600: WER (avg): 0.3603 CER (avg): 0.1717 CTC Loss (avg): 56.9090 time: 14.032
+2026-04-24 23:38:20,098: New best val WER 0.3607 --> 0.3603
+2026-04-24 23:38:20,098: Checkpointing model
+2026-04-24 23:38:19,739: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 23:38:55,480: Train batch 3610: loss: 0.00 grad norm: 0.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.189
+2026-04-24 23:39:14,741: Train batch 3620: loss: 0.00 grad norm: 0.66 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.204
+2026-04-24 23:39:47,600: Train batch 3630: loss: 0.03 grad norm: 27.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.353
+2026-04-24 23:40:15,537: Train batch 3640: loss: 0.00 grad norm: 0.10 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.625
+2026-04-24 23:40:56,502: Train batch 3650: loss: 0.00 grad norm: 0.83 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.369
+2026-04-24 23:41:29,344: Train batch 3660: loss: 0.00 grad norm: 0.60 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.942
+2026-04-24 23:41:56,988: Train batch 3670: loss: 0.00 grad norm: 0.30 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.749
+2026-04-24 23:42:29,773: Train batch 3680: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.688
+2026-04-24 23:42:57,379: Train batch 3690: loss: 0.00 grad norm: 0.36 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.933
+2026-04-24 23:43:25,190: Train batch 3700: loss: 0.00 grad norm: 0.29 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.950
+2026-04-24 23:43:25,190: Running test after training batch: 3700
+2026-04-24 23:43:37,828: Val batch 3700: WER (avg): 0.3608 CER (avg): 0.1720 CTC Loss (avg): 56.8434 time: 12.638
+2026-04-24 23:44:00,508: Train batch 3710: loss: 0.00 grad norm: 60.37 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.743
+2026-04-24 23:44:31,949: Train batch 3720: loss: 0.00 grad norm: 0.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.153
+2026-04-24 23:44:47,144: Train batch 3730: loss: 0.00 grad norm: 0.50 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.848
+2026-04-24 23:45:18,723: Train batch 3740: loss: 0.00 grad norm: 64.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.041
+2026-04-24 23:45:44,870: Train batch 3750: loss: 0.00 grad norm: 1.67 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.616
+2026-04-24 23:46:06,683: Train batch 3760: loss: 0.00 grad norm: 0.32 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.977
+2026-04-24 23:46:42,454: Train batch 3770: loss: 0.00 grad norm: 0.36 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.250
+2026-04-24 23:47:16,556: Train batch 3780: loss: 0.00 grad norm: 0.13 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.906
+2026-04-24 23:47:38,832: Train batch 3790: loss: 0.01 grad norm: 4.25 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.267
+2026-04-24 23:48:03,208: Train batch 3800: loss: 0.00 grad norm: 0.19 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.907
+2026-04-24 23:48:03,208: Running test after training batch: 3800
+2026-04-24 23:48:15,838: Val batch 3800: WER (avg): 0.3601 CER (avg): 0.1714 CTC Loss (avg): 56.7410 time: 12.629
+2026-04-24 23:48:15,838: New best val WER 0.3603 --> 0.3601
+2026-04-24 23:48:15,842: Checkpointing model
+2026-04-24 23:48:16,642: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-24 23:48:40,946: Train batch 3810: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.727
+2026-04-24 23:49:09,294: Train batch 3820: loss: 0.01 grad norm: 4.46 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.085
+2026-04-24 23:49:38,706: Train batch 3830: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.654
+2026-04-24 23:50:00,397: Train batch 3840: loss: 0.00 grad norm: 0.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.946
+2026-04-24 23:50:32,062: Train batch 3850: loss: 0.00 grad norm: 0.88 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.157
+2026-04-24 23:51:05,825: Train batch 3860: loss: 0.00 grad norm: 0.07 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.938
+2026-04-24 23:51:38,286: Train batch 3870: loss: 0.01 grad norm: 90.94 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.068
+2026-04-24 23:52:01,211: Train batch 3880: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.895
+2026-04-24 23:52:35,703: Train batch 3890: loss: 0.00 grad norm: 0.67 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.815
+2026-04-24 23:53:01,256: Train batch 3900: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.371
+2026-04-24 23:53:01,256: Running test after training batch: 3900
+2026-04-24 23:53:15,045: Val batch 3900: WER (avg): 0.3602 CER (avg): 0.1715 CTC Loss (avg): 56.8471 time: 13.789
+2026-04-24 23:53:38,861: Train batch 3910: loss: 0.03 grad norm: 15.98 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.221
+2026-04-24 23:54:14,529: Train batch 3920: loss: 0.00 grad norm: 1.05 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.158
+2026-04-24 23:54:37,218: Train batch 3930: loss: 0.00 grad norm: 0.04 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.885
+2026-04-24 23:55:00,244: Train batch 3940: loss: 0.00 grad norm: 0.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.944
+2026-04-24 23:55:25,731: Train batch 3950: loss: 0.00 grad norm: 0.38 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.968
+2026-04-24 23:55:54,324: Train batch 3960: loss: 0.00 grad norm: 0.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.895
+2026-04-24 23:56:21,654: Train batch 3970: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.751
+2026-04-24 23:57:02,870: Train batch 3980: loss: 0.00 grad norm: 0.47 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.588
+2026-04-24 23:57:42,910: Train batch 3990: loss: 0.00 grad norm: 1.99 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.198
+2026-04-24 23:57:47,534: Batch 3993: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-24 23:57:47,534: Debug batch 3993
+2026-04-24 23:57:47,534: day_indicies: [38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+2026-04-24 23:57:47,535: n_time_steps min/max: 200 / 2243
+2026-04-24 23:57:47,535: adjusted_lens min/max: 47 / 558
+2026-04-24 23:57:47,535: char_seq_lens min/max: 15 / 78
+2026-04-24 23:57:47,535: Any adjusted_lens <= 0? False
+2026-04-24 23:57:47,535: Any char_seq_lens <= 0? False
+2026-04-24 23:57:47,536: Any adjusted_lens < char_seq_lens? True
+2026-04-24 23:57:47,543: features finite? True
+2026-04-24 23:57:47,549: features abs max: 9.500000
+2026-04-24 23:57:47,549: labels min/max: 0 / 30
+2026-04-24 23:58:06,182: Train batch 4000: loss: 0.00 grad norm: 0.12 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.934
+2026-04-24 23:58:06,182: Running test after training batch: 4000
+2026-04-24 23:58:19,839: Val batch 4000: WER (avg): 0.3605 CER (avg): 0.1715 CTC Loss (avg): 56.8418 time: 13.657
+2026-04-24 23:58:38,392: Train batch 4010: loss: 0.01 grad norm: 0.62 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.910
+2026-04-24 23:58:57,857: Train batch 4020: loss: 0.00 grad norm: 0.77 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.993
+2026-04-24 23:59:32,706: Train batch 4030: loss: 0.00 grad norm: 0.45 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 6.168
+2026-04-24 23:59:53,130: Train batch 4040: loss: 0.01 grad norm: 1.76 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.841
+2026-04-25 00:00:20,116: Train batch 4050: loss: 0.00 grad norm: 0.57 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.088
+2026-04-25 00:00:54,220: Train batch 4060: loss: 0.00 grad norm: 0.68 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.955
+2026-04-25 00:01:18,119: Train batch 4070: loss: 0.00 grad norm: 0.57 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.736
+2026-04-25 00:01:43,737: Train batch 4080: loss: 0.00 grad norm: 0.53 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.788
+2026-04-25 00:02:13,031: Train batch 4090: loss: 0.00 grad norm: 1.60 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.117
+2026-04-25 00:02:46,966: Train batch 4100: loss: 0.00 grad norm: 1.66 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.064
+2026-04-25 00:02:46,966: Running test after training batch: 4100
+2026-04-25 00:03:11,699: Val batch 4100: WER (avg): 0.3615 CER (avg): 0.1718 CTC Loss (avg): 56.8020 time: 24.733
+2026-04-25 00:03:23,317: Batch 4104: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:03:23,317: Debug batch 4104
+2026-04-25 00:03:23,317: day_indicies: [19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+2026-04-25 00:03:23,318: n_time_steps min/max: 200 / 1754
+2026-04-25 00:03:23,318: adjusted_lens min/max: 47 / 436
+2026-04-25 00:03:23,319: char_seq_lens min/max: 18 / 57
+2026-04-25 00:03:23,319: Any adjusted_lens <= 0? False
+2026-04-25 00:03:23,319: Any char_seq_lens <= 0? False
+2026-04-25 00:03:23,319: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:03:23,322: features finite? True
+2026-04-25 00:03:23,325: features abs max: 10.000000
+2026-04-25 00:03:23,325: labels min/max: 0 / 30
+2026-04-25 00:03:43,627: Train batch 4110: loss: 0.00 grad norm: 1.54 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.495
+2026-04-25 00:04:00,273: Train batch 4120: loss: 0.00 grad norm: 2.63 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.681
+2026-04-25 00:04:17,386: Train batch 4130: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.953
+2026-04-25 00:04:48,035: Train batch 4140: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.911
+2026-04-25 00:05:21,021: Train batch 4150: loss: 0.00 grad norm: 0.06 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.103
+2026-04-25 00:05:57,210: Train batch 4160: loss: 0.00 grad norm: 0.55 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.263
+2026-04-25 00:06:17,986: Train batch 4170: loss: 0.00 grad norm: 0.95 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 4.632
+2026-04-25 00:06:46,672: Train batch 4180: loss: 0.01 grad norm: 60.08 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.535
+2026-04-25 00:07:02,023: Batch 4187: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:07:02,023: Debug batch 4187
+2026-04-25 00:07:02,023: day_indicies: [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19]
+2026-04-25 00:07:02,024: n_time_steps min/max: 200 / 1740
+2026-04-25 00:07:02,024: adjusted_lens min/max: 47 / 432
+2026-04-25 00:07:02,024: char_seq_lens min/max: 18 / 65
+2026-04-25 00:07:02,025: Any adjusted_lens <= 0? False
+2026-04-25 00:07:02,025: Any char_seq_lens <= 0? False
+2026-04-25 00:07:02,025: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:07:02,028: features finite? True
+2026-04-25 00:07:02,031: features abs max: 9.562500
+2026-04-25 00:07:02,031: labels min/max: 0 / 31
+2026-04-25 00:07:13,050: Train batch 4190: loss: 0.01 grad norm: 3.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.579
+2026-04-25 00:07:47,640: Train batch 4200: loss: 0.00 grad norm: 0.28 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.378
+2026-04-25 00:07:47,640: Running test after training batch: 4200
+2026-04-25 00:08:01,331: Val batch 4200: WER (avg): 0.3607 CER (avg): 0.1718 CTC Loss (avg): 56.8470 time: 13.690
+2026-04-25 00:08:34,121: Train batch 4210: loss: 0.00 grad norm: 0.35 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.524
+2026-04-25 00:09:10,620: Train batch 4220: loss: 0.00 grad norm: 0.38 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 5.990
+2026-04-25 00:09:38,793: Train batch 4230: loss: 0.00 grad norm: 0.12 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.925
+2026-04-25 00:10:06,047: Train batch 4240: loss: 0.00 grad norm: 0.52 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.875
+2026-04-25 00:10:35,986: Train batch 4250: loss: 0.00 grad norm: 0.44 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.225
+2026-04-25 00:11:05,641: Train batch 4260: loss: 0.01 grad norm: 168.79 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.839
+2026-04-25 00:11:28,201: Train batch 4270: loss: 0.00 grad norm: 0.71 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.956
+2026-04-25 00:12:05,308: Train batch 4280: loss: 0.00 grad norm: 18.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.176
+2026-04-25 00:12:39,139: Train batch 4290: loss: 0.00 grad norm: 0.13 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.914
+2026-04-25 00:13:16,967: Train batch 4300: loss: 0.00 grad norm: 0.41 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.968
+2026-04-25 00:13:16,967: Running test after training batch: 4300
+2026-04-25 00:13:30,837: Val batch 4300: WER (avg): 0.3608 CER (avg): 0.1716 CTC Loss (avg): 56.7862 time: 13.870
+2026-04-25 00:13:50,969: Train batch 4310: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.657
+2026-04-25 00:14:27,264: Train batch 4320: loss: 0.00 grad norm: 3.77 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.207
+2026-04-25 00:14:54,828: Train batch 4330: loss: 0.00 grad norm: 0.38 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.965
+2026-04-25 00:15:17,733: Train batch 4340: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.914
+2026-04-25 00:16:04,875: Train batch 4350: loss: 0.00 grad norm: 0.12 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.222
+2026-04-25 00:16:30,949: Train batch 4360: loss: 0.00 grad norm: 1.06 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.886
+2026-04-25 00:17:13,399: Train batch 4370: loss: 0.00 grad norm: 0.33 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.965
+2026-04-25 00:17:28,353: Batch 4379: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:17:28,353: Debug batch 4379
+2026-04-25 00:17:28,353: day_indicies: [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-25 00:17:28,353: n_time_steps min/max: 200 / 2091
+2026-04-25 00:17:28,354: adjusted_lens min/max: 47 / 520
+2026-04-25 00:17:28,354: char_seq_lens min/max: 11 / 67
+2026-04-25 00:17:28,354: Any adjusted_lens <= 0? False
+2026-04-25 00:17:28,354: Any char_seq_lens <= 0? False
+2026-04-25 00:17:28,354: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:17:28,361: features finite? True
+2026-04-25 00:17:28,365: features abs max: 9.750000
+2026-04-25 00:17:28,365: labels min/max: 0 / 30
+2026-04-25 00:17:36,223: Train batch 4380: loss: 0.01 grad norm: 3.40 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.173
+2026-04-25 00:18:03,367: Train batch 4390: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.173
+2026-04-25 00:18:46,849: Train batch 4400: loss: 0.00 grad norm: 0.27 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.150
+2026-04-25 00:18:46,850: Running test after training batch: 4400
+2026-04-25 00:18:59,620: Val batch 4400: WER (avg): 0.3592 CER (avg): 0.1718 CTC Loss (avg): 56.7899 time: 12.770
+2026-04-25 00:18:59,620: New best val WER 0.3601 --> 0.3592
+2026-04-25 00:18:59,620: Checkpointing model
+2026-04-25 00:19:00,407: Saved model to checkpoint: trained_models/convmambagru_text_finetune/checkpoint/best_checkpoint
+2026-04-25 00:19:00,739: Batch 4401: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:19:00,739: Debug batch 4401
+2026-04-25 00:19:00,739: day_indicies: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-25 00:19:00,740: n_time_steps min/max: 200 / 2243
+2026-04-25 00:19:00,740: adjusted_lens min/max: 47 / 558
+2026-04-25 00:19:00,740: char_seq_lens min/max: 17 / 78
+2026-04-25 00:19:00,741: Any adjusted_lens <= 0? False
+2026-04-25 00:19:00,741: Any char_seq_lens <= 0? False
+2026-04-25 00:19:00,741: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:19:00,746: features finite? True
+2026-04-25 00:19:00,752: features abs max: 10.062500
+2026-04-25 00:19:00,753: labels min/max: 0 / 30
+2026-04-25 00:19:40,009: Train batch 4410: loss: 0.00 grad norm: 1.84 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.336
+2026-04-25 00:19:57,419: Train batch 4420: loss: 0.01 grad norm: 5.21 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.167
+2026-04-25 00:20:28,579: Train batch 4430: loss: 0.01 grad norm: 336.89 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.390
+2026-04-25 00:20:58,887: Train batch 4440: loss: 0.00 grad norm: 0.50 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.111
+2026-04-25 00:21:38,035: Train batch 4450: loss: 0.00 grad norm: 0.37 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.675
+2026-04-25 00:22:20,683: Train batch 4460: loss: 0.00 grad norm: 158.95 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.957
+2026-04-25 00:22:41,988: Train batch 4470: loss: 0.00 grad norm: 26.24 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.201
+2026-04-25 00:23:18,545: Train batch 4480: loss: 0.02 grad norm: 7.91 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.908
+2026-04-25 00:23:49,118: Train batch 4490: loss: 0.03 grad norm: 18.43 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.197
+2026-04-25 00:24:02,505: Batch 4498: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:24:02,506: Debug batch 4498
+2026-04-25 00:24:02,506: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 19, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+2026-04-25 00:24:02,506: n_time_steps min/max: 200 / 1827
+2026-04-25 00:24:02,507: adjusted_lens min/max: 47 / 454
+2026-04-25 00:24:02,507: char_seq_lens min/max: 13 / 62
+2026-04-25 00:24:02,507: Any adjusted_lens <= 0? False
+2026-04-25 00:24:02,507: Any char_seq_lens <= 0? False
+2026-04-25 00:24:02,507: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:24:02,512: features finite? True
+2026-04-25 00:24:02,515: features abs max: 9.125000
+2026-04-25 00:24:02,515: labels min/max: 0 / 30
+2026-04-25 00:24:09,428: Train batch 4500: loss: 0.00 grad norm: 0.51 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.956
+2026-04-25 00:24:09,428: Running test after training batch: 4500
+2026-04-25 00:24:23,072: Val batch 4500: WER (avg): 0.3604 CER (avg): 0.1718 CTC Loss (avg): 56.9529 time: 13.644
+2026-04-25 00:24:52,773: Train batch 4510: loss: 0.00 grad norm: 3.64 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.933
+2026-04-25 00:25:13,787: Train batch 4520: loss: 0.00 grad norm: 0.88 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.296
+2026-04-25 00:25:39,382: Train batch 4530: loss: 0.00 grad norm: 0.50 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.847
+2026-04-25 00:26:10,534: Train batch 4540: loss: 0.00 grad norm: 0.04 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.839
+2026-04-25 00:26:34,411: Train batch 4550: loss: 0.00 grad norm: 4.16 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.646
+2026-04-25 00:27:12,151: Train batch 4560: loss: 0.00 grad norm: 0.18 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.087
+2026-04-25 00:27:38,772: Train batch 4570: loss: 0.00 grad norm: 0.80 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.917
+2026-04-25 00:28:04,038: Batch 4578: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:28:04,039: Debug batch 4578
+2026-04-25 00:28:04,039: day_indicies: [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-25 00:28:04,040: n_time_steps min/max: 200 / 1990
+2026-04-25 00:28:04,041: adjusted_lens min/max: 47 / 495
+2026-04-25 00:28:04,041: char_seq_lens min/max: 17 / 62
+2026-04-25 00:28:04,041: Any adjusted_lens <= 0? False
+2026-04-25 00:28:04,042: Any char_seq_lens <= 0? False
+2026-04-25 00:28:04,042: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:28:04,065: features finite? True
+2026-04-25 00:28:04,371: features abs max: 10.000000
+2026-04-25 00:28:04,371: labels min/max: 0 / 30
+2026-04-25 00:28:10,987: Train batch 4580: loss: 0.01 grad norm: 4.33 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.911
+2026-04-25 00:28:35,822: Train batch 4590: loss: 0.00 grad norm: 0.89 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.689
+2026-04-25 00:28:52,617: Train batch 4600: loss: 0.00 grad norm: 0.06 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.011
+2026-04-25 00:28:52,617: Running test after training batch: 4600
+2026-04-25 00:29:16,209: Val batch 4600: WER (avg): 0.3603 CER (avg): 0.1717 CTC Loss (avg): 57.0482 time: 23.592
+2026-04-25 00:29:16,508: Batch 4601: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:29:16,508: Debug batch 4601
+2026-04-25 00:29:16,508: day_indicies: [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 39, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+2026-04-25 00:29:16,508: n_time_steps min/max: 200 / 1794
+2026-04-25 00:29:16,508: adjusted_lens min/max: 47 / 446
+2026-04-25 00:29:16,509: char_seq_lens min/max: 17 / 55
+2026-04-25 00:29:16,509: Any adjusted_lens <= 0? False
+2026-04-25 00:29:16,509: Any char_seq_lens <= 0? False
+2026-04-25 00:29:16,509: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:29:16,516: features finite? True
+2026-04-25 00:29:16,519: features abs max: 9.062500
+2026-04-25 00:29:16,519: labels min/max: 0 / 31
+2026-04-25 00:29:36,405: Train batch 4610: loss: 0.00 grad norm: 0.23 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.108
+2026-04-25 00:30:13,462: Train batch 4620: loss: 0.00 grad norm: 0.57 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.945
+2026-04-25 00:30:27,946: Batch 4630: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:30:27,947: Debug batch 4630
+2026-04-25 00:30:27,947: day_indicies: [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22]
+2026-04-25 00:30:27,947: n_time_steps min/max: 200 / 1794
+2026-04-25 00:30:27,948: adjusted_lens min/max: 47 / 446
+2026-04-25 00:30:27,948: char_seq_lens min/max: 18 / 55
+2026-04-25 00:30:27,948: Any adjusted_lens <= 0? False
+2026-04-25 00:30:27,948: Any char_seq_lens <= 0? False
+2026-04-25 00:30:27,948: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:30:27,951: features finite? True
+2026-04-25 00:30:27,955: features abs max: 10.000000
+2026-04-25 00:30:27,955: labels min/max: 0 / 30
+2026-04-25 00:30:29,993: Train batch 4630: loss: 0.01 grad norm: 2.61 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.089
+2026-04-25 00:30:43,429: Batch 4638: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:30:43,429: Debug batch 4638
+2026-04-25 00:30:43,429: day_indicies: [37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+2026-04-25 00:30:43,429: n_time_steps min/max: 200 / 2164
+2026-04-25 00:30:43,430: adjusted_lens min/max: 47 / 538
+2026-04-25 00:30:43,430: char_seq_lens min/max: 17 / 60
+2026-04-25 00:30:43,430: Any adjusted_lens <= 0? False
+2026-04-25 00:30:43,431: Any char_seq_lens <= 0? False
+2026-04-25 00:30:43,431: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:30:43,434: features finite? True
+2026-04-25 00:30:43,440: features abs max: 8.500000
+2026-04-25 00:30:43,440: labels min/max: 0 / 30
+2026-04-25 00:30:51,677: Train batch 4640: loss: 0.00 grad norm: 1.16 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.605
+2026-04-25 00:31:12,412: Train batch 4650: loss: 0.00 grad norm: 0.09 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.956
+2026-04-25 00:31:46,812: Train batch 4660: loss: 0.00 grad norm: 1.01 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.954
+2026-04-25 00:32:36,716: Train batch 4670: loss: 0.01 grad norm: 2.07 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 7.033
+2026-04-25 00:33:08,633: Train batch 4680: loss: 0.00 grad norm: 28.27 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.121
+2026-04-25 00:33:38,224: Train batch 4690: loss: 0.00 grad norm: 0.77 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.121
+2026-04-25 00:34:10,466: Train batch 4700: loss: 0.00 grad norm: 30.81 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.773
+2026-04-25 00:34:10,467: Running test after training batch: 4700
+2026-04-25 00:34:24,908: Val batch 4700: WER (avg): 0.3608 CER (avg): 0.1717 CTC Loss (avg): 57.0786 time: 14.441
+2026-04-25 00:34:59,060: Train batch 4710: loss: 0.00 grad norm: 0.97 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.391
+2026-04-25 00:35:22,411: Train batch 4720: loss: 0.00 grad norm: 69.37 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.960
+2026-04-25 00:35:49,543: Train batch 4730: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.280
+2026-04-25 00:36:21,863: Train batch 4740: loss: 0.00 grad norm: 1.56 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 11.036
+2026-04-25 00:36:44,386: Train batch 4750: loss: 0.00 grad norm: 0.11 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.593
+2026-04-25 00:37:17,998: Train batch 4760: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.098
+2026-04-25 00:37:56,836: Train batch 4770: loss: 0.00 grad norm: 0.33 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.097
+2026-04-25 00:38:37,739: Train batch 4780: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.941
+2026-04-25 00:39:02,872: Train batch 4790: loss: 0.01 grad norm: 25.41 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.535
+2026-04-25 00:39:35,546: Train batch 4800: loss: 0.01 grad norm: 284.04 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.947
+2026-04-25 00:39:35,547: Running test after training batch: 4800
+2026-04-25 00:39:48,227: Val batch 4800: WER (avg): 0.3610 CER (avg): 0.1718 CTC Loss (avg): 57.0103 time: 12.680
+2026-04-25 00:40:05,503: Batch 4807: filtering 1 invalid samples (keeping 63/64) because adjusted_lens < char_seq_lens
+2026-04-25 00:40:05,503: Debug batch 4807
+2026-04-25 00:40:05,503: day_indicies: [43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+2026-04-25 00:40:05,504: n_time_steps min/max: 200 / 2091
+2026-04-25 00:40:05,504: adjusted_lens min/max: 47 / 520
+2026-04-25 00:40:05,504: char_seq_lens min/max: 8 / 67
+2026-04-25 00:40:05,504: Any adjusted_lens <= 0? False
+2026-04-25 00:40:05,505: Any char_seq_lens <= 0? False
+2026-04-25 00:40:05,505: Any adjusted_lens < char_seq_lens? True
+2026-04-25 00:40:05,511: features finite? True
+2026-04-25 00:40:05,517: features abs max: 8.750000
+2026-04-25 00:40:05,517: labels min/max: 0 / 31
+2026-04-25 00:40:20,956: Train batch 4810: loss: 0.00 grad norm: 0.18 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.789
+2026-04-25 00:40:54,833: Train batch 4820: loss: 0.00 grad norm: 1.41 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.703
+2026-04-25 00:41:27,299: Train batch 4830: loss: 0.00 grad norm: 0.87 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.967
+2026-04-25 00:42:02,568: Train batch 4840: loss: 0.00 grad norm: 0.14 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 3.735
+2026-04-25 00:42:26,500: Train batch 4850: loss: 0.00 grad norm: 0.22 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.151
+2026-04-25 00:42:56,808: Train batch 4860: loss: 0.02 grad norm: 95.04 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.892
+2026-04-25 00:43:29,775: Train batch 4870: loss: 0.00 grad norm: 0.87 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 8.975
+2026-04-25 00:43:53,406: Train batch 4880: loss: 0.00 grad norm: 1.82 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.119
+2026-04-25 00:44:24,970: Train batch 4890: loss: 0.00 grad norm: 0.54 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.105
+2026-04-25 00:44:51,094: Train batch 4900: loss: 0.00 grad norm: 12.87 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.002
+2026-04-25 00:44:51,094: Running test after training batch: 4900
+2026-04-25 00:45:14,670: Val batch 4900: WER (avg): 0.3600 CER (avg): 0.1711 CTC Loss (avg): 56.8599 time: 23.576
+2026-04-25 00:45:39,081: Train batch 4910: loss: 0.00 grad norm: 0.20 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.874
+2026-04-25 00:46:03,808: Train batch 4920: loss: 0.00 grad norm: 23.29 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.962
+2026-04-25 00:46:33,178: Train batch 4930: loss: 0.00 grad norm: 4.02 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.847
+2026-04-25 00:46:57,609: Train batch 4940: loss: 0.01 grad norm: 2.01 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 1.642
+2026-04-25 00:47:26,002: Train batch 4950: loss: 0.00 grad norm: 0.46 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.823
+2026-04-25 00:48:01,381: Train batch 4960: loss: 0.00 grad norm: 0.35 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.914
+2026-04-25 00:48:25,209: Train batch 4970: loss: 0.00 grad norm: 0.52 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.871
+2026-04-25 00:48:46,235: Train batch 4980: loss: 0.00 grad norm: 0.30 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 2.176
+2026-04-25 00:49:22,621: Train batch 4990: loss: 0.00 grad norm: 0.37 lr(s): ['0.00000050', '0.00000015', '0.00000050'] time: 0.980
+2026-04-25 00:49:48,664: Running test after training batch: 4999
+2026-04-25 00:50:02,459: Val batch 4999: WER (avg): 0.3615 CER (avg): 0.1717 CTC Loss (avg): 56.9852 time: 13.795
+2026-04-25 00:50:02,459: Best avg val WER achieved: 0.35924
+2026-04-25 00:50:02,459: Best avg val CER achieved: 0.17181
+2026-04-25 00:50:02,459: Total training time: 257.92 minutes
