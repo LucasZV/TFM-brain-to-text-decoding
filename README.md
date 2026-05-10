@@ -1,56 +1,33 @@
-\# TFM-brain-to-text-decoding
-
-
+# TFM-brain-to-text-decoding
 
 Repositorio del Trabajo Fin de Máster sobre decodificación de habla a partir de actividad neuronal mediante modelos "brain-to-text" fonémicos y textuales, rescoring con modelos de lenguaje y síntesis de voz.
 
-
-
-\## Descripción general
-
-
+## Descripción general
 
 Este repositorio recoge el código, notebooks, configuraciones, scripts y resultados intermedios utilizados en el desarrollo experimental del trabajo. El proyecto se organiza en cuatro bloques principales:
 
 
+- `EDA/`: análisis exploratorio de datos.
 
-\- `EDA/`: análisis exploratorio de datos.
+- `Error\_Analisys/`: análisis de errores de la rama fonémica y textual.
 
-\- `Error\_Analisys/`: análisis de errores de la rama fonémica y textual.
+- `Experiments/`: experimentos principales del trabajo.
 
-\- `Experiments/`: experimentos principales del trabajo.
-
-\- `envs/`: entornos Conda y requisitos necesarios para reproducir las distintas partes del proyecto.
-
-
+- `envs/`: entornos Conda y requisitos necesarios para reproducir las distintas partes del proyecto.
 
 El trabajo parte del repositorio oficial del baseline:
 
-
-
-\- `https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text`
-
-
+- `https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text`
 
 Ese repositorio proporciona la base original del sistema "brain-to-text", así como las instrucciones para descargar los datos, configurar el entorno baseline y montar la infraestructura de evaluación con modelo de lenguaje y Redis para la rama fonémica.
 
+---
 
-
-\---
-
-
-
-\## Repositorio base de referencia
-
-
+## Repositorio base de referencia
 
 El modelo base utilizado en este trabajo proviene del repositorio oficial:
 
-
-
-\- `https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text`
-
-
+- `https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text`
 
 Antes de ejecutar los experimentos de este repositorio, es necesario seguir las instrucciones del repositorio base para:
 
