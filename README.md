@@ -316,10 +316,7 @@ conda env create -f envs/environment_coqui_tts.yml
 ## Flujo recomendado de reproducción
 1. Preparar el baseline original
 
-Seguir las instrucciones del repositorio:
-
-* https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text
-para:
+Seguir las instrucciones del repositorio: https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text para:
 
 * descargar los datos,
 * montar el entorno original,
@@ -340,8 +337,10 @@ Trabajar dentro de:
 
 * `Experiments/Phoneme/baseline/`
 * `Experiments/Phoneme/Mamba_Base/`
-* `Experiments/Phoneme/ConvMambaGRU_Phoneme/`
-Orden orientativo
+* `Experiments/Phoneme/ConvMambaGRU_Phoneme/`  
+
+Orden orientativo  
+
 * entrenar el baseline fonémico,
 * entrenar la variante Mamba base,
 * entrenar ConvMambaGRU fonémico,
@@ -368,9 +367,7 @@ Abrir los notebooks:
 
 Trabajar dentro de:
 
-* `Experiments/TTS/`
-
-usando el entorno `coqui_tts`.
+* `Experiments/TTS/` usando el entorno `coqui_tts`.
 --- 
 ### Archivos grandes no incluidos
 Por restricciones de tamaño, este repositorio no incluye:
