@@ -4,12 +4,13 @@ Repositorio del Trabajo Fin de Máster sobre decodificación de habla a partir d
 
 ## Descripción general
 
-Este repositorio recoge el código, notebooks, configuraciones, scripts y resultados intermedios utilizados en el desarrollo experimental del trabajo. El proyecto se organiza en cuatro bloques principales:
+Este repositorio recoge el código, notebooks, configuraciones, scripts y resultados intermedios utilizados en el desarrollo experimental del trabajo.  
+El proyecto se organiza en cuatro bloques principales:
 
 
 - `EDA/`: análisis exploratorio de datos.
 
-- `Error\_Analisys/`: análisis de errores de la rama fonémica y textual.
+- `Error_Analisys/`: análisis de errores de la rama fonémica y textual.
 
 - `Experiments/`: experimentos principales del trabajo.
 
@@ -48,12 +49,12 @@ En este repositorio se incluyen adaptaciones, extensiones y nuevas arquitecturas
 ```text
 .
 ├── EDA/
-├── Error\_Analisys/
+├── Error_Analisys/
 ├── Experiments/
 ├── envs/
 ├── LICENSE
 ├── README.md
-└── data\_download\_link.txt
+└── data_download_link.txt
 ```
 ---
 
@@ -76,13 +77,13 @@ Figuras incluidas:
 * variación temporal por característica.
 ---
 
-### `Error\_Analisys/`
+### `Error_Analisys/`
 Contiene los notebooks de análisis de errores para ambas ramas del sistema.
 
-#### `Error\_Analisys/fonemas/`
+#### `Error_Analisys/fonemas/`
 
-* `Análisis\_Errores\_Fonémas.ipynb`: notebook de análisis de errores de la rama fonémica.
-* `img\_fonemas/`: figuras generadas para el análisis fonémico.
+* `Análisis_Errores_Fonémas.ipynb`: notebook de análisis de errores de la rama fonémica.
+* `img_fonemas/`: figuras generadas para el análisis fonémico.
 
 Incluye análisis como:
 
@@ -91,10 +92,10 @@ Incluye análisis como:
 * matriz de confusión fonémica,
 * relación entre tasa de error y frecuencia de fonema.
 
-#### `Error\_Analisys/texto/`
+#### `Error_Analisys/texto/`
 
-* `Análisis\_Errores\_TEXT.ipynb`: notebook de análisis de errores de la rama textual.
-* `img\_text/`: figuras generadas para el análisis textual.
+* `Análisis_Errores_TEXT.ipynb`: notebook de análisis de errores de la rama textual.
+* `img_text/`: figuras generadas para el análisis textual.
 
 Incluye análisis como:
 
@@ -103,14 +104,14 @@ Incluye análisis como:
 * matriz de confusión léxica,
 * comparación entre greedy, beam y beam + LM.
 
-### `Experiments/`
+## `Experiments/`
 Contiene la parte principal de experimentación del trabajo y se divide en tres grandes bloques:
 
 * `Phoneme/`
 * `Text/`
 * `TTS/`
 
-#### Experimentos de la rama fonémica
+### Experimentos de la rama fonémica
 ```text
 Experiments/Phoneme/
 ├── baseline/
@@ -118,7 +119,7 @@ Experiments/Phoneme/
 └── ConvMambaGRU_Phoneme/
 ```
 ---
-##### 1. `Experiments/Phoneme/baseline/`
+#### 1. `Experiments/Phoneme/baseline/`
 
 Implementación y adaptación local del modelo baseline fonémico.
 
@@ -139,7 +140,7 @@ Archivos principales
 * `results/`: resultados de validación en formato CSV.
 * `trained_models/`: estructura local de modelos entrenados y logs.
 
-###### Notas importantes
+##### Notas importantes
 
 La rama fonémica baseline depende del modelo de lenguaje y del pipeline con Redis del repositorio original. Para reproducir la evaluación fonema-a-texto es necesario:
 
@@ -149,7 +150,7 @@ La rama fonémica baseline depende del modelo de lenguaje y del pipeline con Red
 4. Ejecutar la evaluación usando la infraestructura del baseline.
 ---
 
-##### 2. `Experiments/Phoneme/Mamba_Base/`
+#### 2. `Experiments/Phoneme/Mamba_Base/`
 Implementación de la variante base basada en Mamba para la rama fonémica.
 
 Archivos principales
@@ -174,7 +175,7 @@ Contenido de `trained_models/`
 * `training_log`: log del entrenamiento.
 
 ---
-##### 3. `Experiments/Phoneme/ConvMambaGRU_Phoneme/`
+#### 3. `Experiments/Phoneme/ConvMambaGRU_Phoneme/`
 Implementación de la arquitectura híbrida ConvMambaGRU para la rama fonémica.
 
 Archivos principales
@@ -192,19 +193,19 @@ Archivos principales
 * `results_val/`: salidas de validación en CSV.
 * `trained_models/`: modelos entrenados, configuración y logs.
   
-###### Notas importantes:
+##### Notas importantes:
 
 Al igual que el baseline fonémico, esta rama utiliza evaluación apoyada en Redis y en el modelo de lenguaje del repositorio base. Por tanto, para reproducir la evaluación final de WER de la rama fonémica hay que seguir las instrucciones del repositorio original y disponer del LM del baseline funcionando.
 
 ---
-#### Experimentos de la rama textual
+### Experimentos de la rama textual
 ```text
 Experiments/Text/
 ├── GRU_Text/
 └── ConvMambaGRU_Text/
 ```
 ---
-##### 1. `Experiments/Text/GRU_Text/`
+#### 1. `Experiments/Text/GRU_Text/`
 Implementación del modelo GRU textual para decodificación directa a caracteres.
 
 Archivos principales
@@ -224,7 +225,7 @@ Contenido relevante
 * `trained_models/gru_text/checkpoint/args.yaml`: configuración efectiva.
 * `trained_models/gru_text/checkpoint/val_metrics.pkl`: métricas de validación.
 
-##### 2. `Experiments/Text/ConvMambaGRU_Text/`
+#### 2. `Experiments/Text/ConvMambaGRU_Text/`
 Implementación de la arquitectura ConvMambaGRU para decodificación textual directa.
 
 Archivos principales
@@ -242,7 +243,7 @@ Archivos principales
 * `trained_models/`: modelos entrenados y métricas.
 * `KenLM/`: utilidades para construir, entrenar y puntuar modelos KenLM sobre el corpus textual.
 
-###### Carpeta KenLM/
+##### Carpeta KenLM/
 Incluye herramientas auxiliares para crear y evaluar modelos n-gram específicos del corpus textual del trabajo:
 
 * `build_corpus.py`: construcción del corpus textual.
@@ -252,13 +253,13 @@ Incluye herramientas auxiliares para crear y evaluar modelos n-gram específicos
 * `data/`: estadísticas y vocabulario.
 * `corpus/`: corpus de entrenamiento/validación.
 * `models/`: modelos ARPA y binarios generados.
-*Nota sobre `kenlm_src/`*
+##### *Nota sobre `kenlm_src/`*
 
 La carpeta kenlm_src/ contiene el código fuente de KenLM y su build local. Es una dependencia auxiliar utilizada durante los experimentos de rescoring con n-gramas.
 
 --- 
 
-### Síntesis de voz
+## Síntesis de voz
 ```text
 Experiments/TTS/
 ├── tts_from_gru_baseline.py
@@ -268,11 +269,11 @@ Experiments/TTS/
 ```
 La carpeta `TTS/` contiene la etapa final de síntesis de voz a partir de frases decodificadas.
 
-##### Scripts principales
+### Scripts principales
 * `tts_from_gru_baseline.py`: genera audio a partir de las predicciones del modelo baseline fonémico.
 * `tts_from_gru_phoneme_best.py`: genera audio a partir del mejor modelo de la rama fonémica seleccionada.
 * `tts_from_gru_text_best.py`: genera audio a partir del mejor modelo de la rama textual.
-###### Salidas
+### Salidas
 * `tts_outputs/gru_baseline_csv_best/`: ejemplos sintetizados a partir del baseline.
 * `tts_outputs/convmamba_phoneme_csv_best/`: ejemplos sintetizados a partir de la mejor rama fonémica.
 * `tts_outputs/gru_text_best_gpt2xl_a12/`: ejemplos sintetizados a partir del mejor modelo textual.
@@ -283,7 +284,7 @@ Cada ejemplo incluye:
 * un archivo `.wav` con el audio sintetizado.
 ---
 
-### Entornos y dependencias
+## Entornos y dependencias
 
 La carpeta `envs/` contiene los entornos y requisitos necesarios para reproducir el proyecto:
 
@@ -296,23 +297,23 @@ La carpeta `envs/` contiene los entornos y requisitos necesarios para reproducir
 * `requirements_b2txt25_lm.txt`
 * `requirements_coqui_tts.txt`
 
-##### Entorno general de experimentación:
+### Entorno general de experimentación:
 ```bash
 conda env create -f envs/environment_b2tmamba.yml
 ```
 
-##### Entorno de rescoring / LM rama fonética:
+### Entorno de rescoring / LM rama fonética:
 ```bash
 conda env create -f envs/environment_b2txt25_lm.yml
 ```
 
-##### Entorno de síntesis de voz:
+### Entorno de síntesis de voz:
 ```bash
 conda env create -f envs/environment_coqui_tts.yml
 ```
 ---
 
-### Flujo recomendado de reproducción
+## Flujo recomendado de reproducción
 1. Preparar el baseline original
 
 Seguir las instrucciones del repositorio:
@@ -371,7 +372,7 @@ Trabajar dentro de:
 
 usando el entorno `coqui_tts`.
 --- 
-#### Archivos grandes no incluidos
+### Archivos grandes no incluidos
 Por restricciones de tamaño, este repositorio no incluye:
 
 * checkpoints finales completos de los modelos entrenados,
@@ -388,7 +389,7 @@ Sí se incluyen:
 * ejemplos de salidas,
 * y la estructura necesaria para reproducir el pipeline.
 --- 
-### Descarga de datos
+## Descarga de datos
 
 En la raíz del repositorio se incluye:
 
@@ -398,7 +399,7 @@ como referencia adicional para la descarga o localización de los datos empleado
 
 Aun así, la fuente principal y las instrucciones de preparación deben tomarse del repositorio base del baseline.
 
-### Licencia
+## Licencia
 
 Este repositorio se distribuye bajo la licencia indicada en el archivo `LICENSE`.
 
