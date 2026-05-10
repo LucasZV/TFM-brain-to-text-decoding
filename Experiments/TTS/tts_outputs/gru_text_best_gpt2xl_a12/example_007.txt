@@ -1,0 +1,5 @@
+TRUE TEXT:
+this is like a cruelty joke.
+
+PREDICTED TEXT:
+this is like a cerlty drunk.

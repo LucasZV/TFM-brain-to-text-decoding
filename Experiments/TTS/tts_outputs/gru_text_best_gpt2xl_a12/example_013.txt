@@ -1,0 +1,5 @@
+TRUE TEXT:
+he's one of the big proponents of that.
+
+PREDICTED TEXT:
+he's one of the big proponents.of tat.

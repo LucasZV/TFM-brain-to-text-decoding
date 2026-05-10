@@ -1,0 +1,5 @@
+TRUE TEXT:
+woodworking mastery.
+
+PREDICTED TEXT:
+what making mestory.

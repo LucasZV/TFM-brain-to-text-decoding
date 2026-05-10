@@ -1,0 +1,5 @@
+TRUE TEXT:
+in fact this morning when they were talking.
+
+PREDICTED TEXT:
+i in fact this moring when they were talking.

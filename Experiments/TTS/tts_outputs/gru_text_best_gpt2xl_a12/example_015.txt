@@ -1,0 +1,5 @@
+TRUE TEXT:
+to me, it's a treasure.
+
+PREDICTED TEXT:
+to me.it's a treasure.
