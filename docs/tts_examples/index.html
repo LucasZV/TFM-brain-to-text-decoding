@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplos de síntesis de voz - TFM Brain-to-Text</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      line-height: 1.5;
+      color: #222;
+    }
+    h1, h2 {
+      color: #1f2a44;
+    }
+    .example {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 24px;
+      background: #fafafa;
+    }
+    audio {
+      width: 100%;
+      margin-top: 8px;
+    }
+    img {
+      max-width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+    .label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Ejemplos de síntesis de voz</h1>
+
+  <p>
+    Esta página recoge ejemplos de audio generados mediante Coqui TTS a partir de
+    predicciones textuales obtenidas por la variante fonética del sistema
+    "brain-to-text" desarrollado en el TFM.
+  </p>
+
+  <h2>Figura resumen</h2>
+  <p>
+    La siguiente figura muestra la forma de onda y el espectrograma de los dos
+    audios seleccionados.
+  </p>
+
+  <img src="tts_examples_subplot_2x2.png" alt="Forma de onda y espectrograma de los audios sintetizados">
+
+  <h2>Audios</h2>
+
+  <div class="example">
+    <h3>Ejemplo correctamente decodificado</h3>
+    <p><span class="label">Texto de referencia:</span> How does it keep the cost down</p>
+    <p><span class="label">Texto predicho:</span> how does it keep the cost down</p>
+    <audio controls>
+      <source src="example_001.wav" type="audio/wav">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+  </div>
+
+  <div class="example">
+    <h3>Ejemplo con error grave</h3>
+    <p><span class="label">Texto de referencia:</span> Wait a minute we know this thing isn't</p>
+    <p><span class="label">Texto predicho:</span> wait a meta oui know this thing eason</p>
+    <audio controls>
+      <source src="example_010.wav" type="audio/wav">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+  </div>
+
+</body>
+</html>
