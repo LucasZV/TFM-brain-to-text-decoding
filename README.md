@@ -20,7 +20,10 @@ El trabajo parte del repositorio oficial del baseline:
 
 - `https://github.com/Neuroprosthetics-Lab/nejm-brain-to-text`
 
-Ese repositorio proporciona la base original del sistema "brain-to-text", así como las instrucciones para descargar los datos, configurar el entorno baseline y montar la infraestructura de evaluación con modelo de lenguaje y Redis para la rama fonémica.
+Ese repositorio proporciona la base original del sistema "brain-to-text", así como las instrucciones para descargar los datos, configurar el entorno baseline y montar la infraestructura de evaluación con modelo de lenguaje y Redis para la rama fonémica.  
+
+Se pueden escuchar ejemplos del audio final sintetizado en la siguiente página desplegada:  
+- https://lucaszv.github.io/TFM-audio-examples/ 
 
 ---
 
